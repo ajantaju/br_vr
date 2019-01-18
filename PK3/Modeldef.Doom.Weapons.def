@@ -8,7 +8,7 @@ Model Rifle
    Model 0 "Rifle.md3"
    Skin 0 "Rifle.png"
    Scale -1.0 1.0 1.0
-   Offset 5.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    ZOffset -5
 	NoInterpolation
    
@@ -91,8 +91,8 @@ Model DualRifles
    Model 0 "Rifle_Dual.md3"
    Skin 0 "Rifle.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
-   ZOffset -5
+   Offset 0.0 0.0 0.0
+   //ZOffset -5
 	NoInterpolation
 
 	//Aim and Firing
@@ -162,7 +162,7 @@ Model BrutalPistol
    Skin 0 "BrutalPistol.png"
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
-   ZOffset -5
+   //ZOffset -5
 	NoInterpolation
    
 
@@ -233,8 +233,8 @@ Model DualPistols
    Model 0 "DualPistol.md3"
    Skin 0 "BrutalPistol.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
-   ZOffset -5
+   Offset 0.0 0.0 0.0
+   //ZOffset -5
    NoInterpolation
    
 	//Ready weapon (Not needed in VR)
@@ -312,7 +312,7 @@ Model BrutalSMG
    Skin 0 "BrutalSMG.png"
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
-   ZOffset -5
+   //ZOffset -5
 	NoInterpolation
 	
    //Ready
@@ -376,8 +376,8 @@ Model DualSMG
    Model 0 "DualSMG.md3"
    Skin 0 "BrutalSMG.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
-   ZOffset -5
+   Offset 0.0 0.0 0.0
+   //ZOffset -5
 	NoInterpolation
 
 	//Ready
@@ -455,8 +455,8 @@ Model Shot_Gun
    Model 0 "Shotgun.md3"
    Skin 0 "Shotgun.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
-   ZOffset -5
+   Offset 0.0 0.0 0.0
+   //ZOffset -5
 	NoInterpolation
 	
 	//Ready
@@ -536,8 +536,8 @@ Model SSG
    Model 0 "SSG.md3"
    Skin 0 "dbs.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
-   ZOffset -5
+   Offset 0.0 0.0 0.0
+   //ZOffset -5
 	NoInterpolation
 	
 	//Ready
@@ -625,8 +625,8 @@ Model Minigun
    Model 0 "Minigun.md3"
    Skin 0 "Minigun.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
-   ZOffset -5
+   Offset 0.0 0.0 0.0
+   //ZOffset -5
 
 	//Ready
 
@@ -669,8 +669,8 @@ Model Machinegun
    Model 0 "Machinegun.md3"
    Skin 0 "Machinegun.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
-   ZOffset -5
+   Offset 0.0 0.0 0.0
+   //ZOffset -5
 
 //Ready
 
