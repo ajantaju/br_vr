@@ -21,5 +21,4 @@ INI setting:
 	openvr_weaponRotate=-56
 
 Import/export tool used for Blender:
-
 https://en.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/MD3
