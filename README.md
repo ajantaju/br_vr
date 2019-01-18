@@ -4,7 +4,7 @@ Brutal Doom VR Weapons for bd21RC6 and OpenVRDoom WIP
 OpenVRDoom:
 https://github.com/Fishbiter/gz3doom
 
-Brutal Doom_
+Brutal Doom:
 https://www.moddb.com/mods/brutal-doom/forum/thread/release-candidate-5-testing
 
 To install:
@@ -22,4 +22,4 @@ INI setting:
 
 Import/export tool used for Blender:
 
-	https://en.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/MD3
+https://en.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/MD3
