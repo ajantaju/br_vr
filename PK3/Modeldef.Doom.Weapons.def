@@ -9,7 +9,7 @@ Model Rifle
    Skin 0 "Rifle.png"
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
-   ZOffset -5
+   //ZOffset -5
 	NoInterpolation
    
 	//Ready weapon
@@ -626,6 +626,7 @@ Model Minigun
    Skin 0 "Minigun.png"
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
+   NoInterpolation
    //ZOffset -5
 
 	//Ready
@@ -670,16 +671,82 @@ Model Machinegun
    Skin 0 "Machinegun.png"
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
+   NoInterpolation
    //ZOffset -5
 
-//Ready
+	//Ready
+	
+	FrameIndex	MGS1	A	0	0
+	FrameIndex	MGS1	B	0	1
+	FrameIndex	MGS1	C	0	2
+	FrameIndex	MGS1	D	0	3
 
-//Aim and Fire
+	//Aim and Fire
+	
+	FrameIndex	MGN1	A	0	4
+	FrameIndex	MGN1	B	0	5
+	FrameIndex	MGN1	K	0	6
+	FrameIndex	MGN1	C	0	7
+	FrameIndex	MGN1	D	0	8
+	FrameIndex	MGN1	E	0	9
+	FrameIndex	MGN1	F	0	10
 
-//Reload
+	//Alt-Fire
+	
+	FrameIndex	MGN2	A	0	11
+	FrameIndex	MGN2	B	0	12
+	FrameIndex	MGN2	C	0	13
+	FrameIndex	MGN2	D	0	14
+	FrameIndex	MGN2	E	0	15
+	FrameIndex	MGN2	F	0	16
+	FrameIndex	MGN2	G	0	17
+	
+	//Reload Alt
+	
+	FrameIndex	MGN2	H	0	18
+	FrameIndex	MGN2	I	0	19
+	FrameIndex	MGN2	J	0	20
+	FrameIndex	MGN2	K	0	21
+	FrameIndex	MGN2	L	0	22
+	FrameIndex	MGN2	M	0	23
+	FrameIndex	MGN2	N	0	24
+	FrameIndex	MGN2	O	0	25
+	FrameIndex	MGN2	P	0	26
+	FrameIndex	MGN2	Q	0	27
+	FrameIndex	MGN2	R	0	28
+	FrameIndex	MGN2	S	0	29
+	FrameIndex	MGN2	T	0	30
+	FrameIndex	MGN2	U	0	31
+	FrameIndex	MGN2	V	0	32
+	FrameIndex	MGN2	W	0	33
+	FrameIndex	MGN2	X	0	34
+	FrameIndex	MGN2	Y	0	35
 
-//Sprint
 
-//Zoom
+	//Sprint
+	
+	FrameIndex MGN1		S	0 	3
+
+}
+
+Model Rocket_Launcher	
+{ 
+   Path "Models/Weapons/Hud/RPG"
+   Model 0 "RPG.md3"
+   Skin 0 "RPG.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   NoInterpolation
+   //ZOffset -5
+
+	//Ready
+
+	//Aim and Fire
+
+	//Reload
+
+	//Sprint
+
+	//Zoom
 
 }
