@@ -1,0 +1,145 @@
+Model BrutalPistol
+{ 
+   Path "Models/Weapons/Hud/BrutalPistol"
+   Model 0 "BrutalPistol.md3"
+   Skin 0 "BrutalPistol.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+	NoInterpolation
+   
+
+   
+	//Ready weapon
+	
+FrameIndex	PISS	A	0	0
+FrameIndex	PISS	B	0	1
+
+	//Aim and Fire
+	
+
+	FrameIndex	PIST	F	0	2
+	FrameIndex	PIST	A	0	3
+	FrameIndex	PIST	B	0	4
+	FrameIndex	PIST	C	0	5
+	FrameIndex	PIST	D	0	6
+	FrameIndex	PIST	E	0	7
+
+	//Reload
+	
+	FrameIndex	PISR	A	0	8
+	FrameIndex	PISR	B	0	9
+	FrameIndex	PISR	C	0	10
+	FrameIndex	PISR	D	0	11
+	FrameIndex	PISR	E	0	12
+	FrameIndex	PISR	F	0	13
+	FrameIndex	PISR	G	0	14
+	FrameIndex	PISR	H	0	15
+	FrameIndex	PISR	I	0	16
+	FrameIndex	PISR	J	0	17
+	FrameIndex	PISR	K	0	18
+	FrameIndex	PISR	L	0	19
+	FrameIndex	PISR	M	0	20
+	FrameIndex	PISR	N	0	21
+	FrameIndex	PISR	O	0	22
+	FrameIndex	PISR	P	0	23
+	FrameIndex	PISR	Q	0	24
+	FrameIndex	PISR	R	0	25
+	
+	
+	//Sprint
+	
+	FrameIndex	PISP	A	0	27
+	
+	
+	//Pistol Whip
+	
+	FrameIndex	PISA	A	0	28
+	FrameIndex	PISA	B	0	29
+	FrameIndex	PISA	C	0	30
+	FrameIndex	PISA	D	0	31
+	FrameIndex	PISA	E	0	32
+	FrameIndex	PISA	F	0	33
+	FrameIndex	PISA	G	0	34
+	FrameIndex	PISA	H	0	35
+	FrameIndex	PISA	I	0	36
+	FrameIndex	PISA	J	0	37
+	
+}
+
+//Dual Pistols
+
+
+Model DualPistols
+{ 
+   Path "Models/Weapons/Hud/BrutalPistol"
+   Model 0 "DualPistol.md3"
+   Skin 0 "BrutalPistol.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   ZOffset -5
+   NoInterpolation
+   
+	//Ready weapon (Not needed in VR)
+	
+//	FrameIndex	PI2S	A	0	0
+//	FrameIndex	PI2S	B	0	1
+//	FrameIndex	PI2S	C	0	2
+//	FrameIndex	PI2S	D	0	3
+
+	//Aim and Fire
+	
+
+	FrameIndex	PI2G	A	0	4
+	FrameIndex	PI2F	A	0	5
+	FrameIndex	PI2F	B	0	6
+	FrameIndex	PI2F	C	0	7
+	FrameIndex	PI2F	D	0	8
+	FrameIndex	PI2F	E	0	9
+	FrameIndex	PI2F	F	0	10
+	
+	//Reload Right
+	
+	FrameIndex	PISR	B	0	13
+	FrameIndex	PISR	C	0	14
+	FrameIndex	PISR	D	0	15
+	FrameIndex	PISR	E	0	16
+	FrameIndex	PISR	F	0	17
+	FrameIndex	PISR	G	0	18
+	FrameIndex	PISR	H	0	19
+	FrameIndex	PISR	I	0	20
+	FrameIndex	PISR	J	0	21
+	FrameIndex	PISR	K	0	22
+	FrameIndex	PISR	L	0	23
+	FrameIndex	PISR	M	0	24
+	FrameIndex	PISR	N	0	25
+	FrameIndex	PISR	O	0	26
+	FrameIndex	PISR	P	0	27
+	FrameIndex	PISR	Q	0	28
+	FrameIndex	PISR	R	0	29
+	
+	//Reload Left
+	
+	FrameIndex	PI2R	B	0	30
+	FrameIndex	PI2R	C	0	31
+	FrameIndex	PI2R	D	0	32
+	FrameIndex	PI2R	E	0	33
+	FrameIndex	PI2R	F	0	34
+	FrameIndex	PI2R	G	0	35
+	FrameIndex	PI2R	H	0	36
+	FrameIndex	PI2R	I	0	37
+	FrameIndex	PI2R	J	0	38
+	FrameIndex	PI2R	K	0	39
+	FrameIndex	PI2R	L	0	40
+	FrameIndex	PI2R	M	0	41
+	FrameIndex	PI2R	N	0	42
+	FrameIndex	PI2R	O	0	43
+	FrameIndex	PI2R	P	0	44
+	FrameIndex	PI2R	Q	0	45
+	FrameIndex	PI2R	R	0	46
+	
+	//Sprint
+	
+	FrameIndex	PI2P	A	0	3
+	
+}

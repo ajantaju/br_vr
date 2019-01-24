@@ -1,0 +1,73 @@
+Model Rocket_Launcher	
+{ 
+   Path "Models/Weapons/Hud/RPG"
+   Model 0 "RPG.md3"
+   Skin 0 "RPG.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+	
+	FrameIndex	MISS	A	0	0
+	FrameIndex	MISS	B	0	1
+	FrameIndex	MISS	C	0	2
+	FrameIndex	MISS	D	0	3
+	FrameIndex	MISS	E	0	4
+
+
+	//Aim and Barrel Roll
+	
+	FrameIndex	RLNG	A	0	5
+	FrameIndex	RLNG	B	0	6
+	FrameIndex	RLNG	C	0	7
+	FrameIndex	RLNG	D	0	8
+	
+	//Fire
+
+	FrameIndex	RLNF	A	0	9
+	FrameIndex	RLNF	B	0	10
+	FrameIndex	RLNF	C	0	11
+	FrameIndex	RLNF	D	0	12
+	FrameIndex	RLNF	E	0	13
+	FrameIndex	RLNF	F	0	14
+	FrameIndex	RLNF	G	0	15
+	FrameIndex	RLNF	H	0	16
+	
+	//Reload
+	
+	FrameIndex	MISR	A	0	17
+	FrameIndex	MISR	B	0	18
+	FrameIndex	MISR	C	0	19
+	FrameIndex	MISR	D	0	20
+	FrameIndex	MISR	E	0	21
+	FrameIndex	MISR	F	0	22
+	FrameIndex	MISR	G	0	23
+	FrameIndex	MISR	H	0	24
+	FrameIndex	MISR	I	0	25
+	FrameIndex	MISR	J	0	26
+	FrameIndex	MISR	K	0	27
+	FrameIndex	MISR	L	0	28
+	FrameIndex	MISR	M	0	29
+	FrameIndex	MISR	N	0	30
+	FrameIndex	MISR	O	0	31
+	FrameIndex	MISR	P	0	32
+	FrameIndex	MISR	Q	0	33
+	FrameIndex	MISR	R	0	34
+
+
+	//Sprint
+	
+	FrameIndex	MISP	A	0	3
+
+	//Zoom
+	
+	FrameIndex	MIAI	A	0	35
+	FrameIndex	MIAI	B	0	36
+	FrameIndex	MIAI	C	0	37
+	FrameIndex	MIAI	D	0	38
+	FrameIndex	MIAI	E	0	39
+
+
+}

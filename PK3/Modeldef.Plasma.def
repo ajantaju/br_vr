@@ -1,0 +1,179 @@
+Model Plasma_Gun	
+{ 
+   Path "Models/Weapons/Hud/Plasma_Gun"
+   Model 0 "Plasma.md3"
+   Skin 0 "Plasma.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+	
+	FrameIndex	PLS9	A	0	0
+	FrameIndex	PLS9	B	0	1
+	FrameIndex	PLS9	C	0	2
+	FrameIndex	PLS9	D	0	3
+
+
+	//Aim and Fire
+	
+	FrameIndex	PLSN	A	0	4
+	FrameIndex	PLST	A	0	5
+	FrameIndex	PLST	B	0	6
+	FrameIndex	PLST	C	0	7
+	FrameIndex	PLST	D	0	8
+		
+	//Alt-Fire recoil
+
+	FrameIndex	PLSN	B	0	9
+	FrameIndex	PLSN	C	0	10
+	FrameIndex	PLSN	D	0	11
+	FrameIndex	PLSN	E	0	12
+	
+	FrameIndex	PLSN	F	0	13
+	FrameIndex	PLSN	G	0	14
+	
+	FrameIndex	PLSN	J	0	15
+	FrameIndex	PLSN	K	0	16
+	FrameIndex	PLSN	L	0	17
+
+
+	//Reload
+	
+	FrameIndex	PLSR	A	0	18
+	FrameIndex	PLSR	B	0	19
+	FrameIndex	PLSR	C	0	20
+	FrameIndex	PLSR	D	0	21
+	FrameIndex	PLSR	E	0	22
+	FrameIndex	PLSR	F	0	23
+	FrameIndex	PLSR	G	0	24
+	FrameIndex	PLSR	H	0	25
+	FrameIndex	PLSR	I	0	26
+	FrameIndex	PLSR	J	0	27
+	FrameIndex	PLSR	K	0	28
+	FrameIndex	PLSR	L	0	29
+
+
+
+	
+}
+
+Model Plasma_Gun	
+{ 
+   Path "Models/Weapons/Hud/Plasma_Gun"
+   Model 0 "Plasma.md3"
+   Skin 0 "Plasma.png"
+   Model 1 "p_flame1.md3"
+   Skin 1 "p_flame1.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Alt-Fire
+	
+	FrameIndex	PlsA	A	0	4
+	FrameIndex	PlsA	B	0	4
+	FrameIndex	PlsA	C	0	4
+	FrameIndex	PlsA	D	0	4
+
+	
+	FrameIndex	PlsA	A	1	0
+	FrameIndex	PlsA	B	1	1
+	FrameIndex	PlsA	C	1	2
+	FrameIndex	PlsA	D	1	3
+
+
+}
+
+Model Plasma_Gun	
+{ 
+   Path "Models/Weapons/Hud/Plasma_Gun"
+   Model 0 "Plasma.md3"
+   Skin 0 "Plasma.png"
+   Model 1 "p_flame1.md3"
+   Skin 1 "p_flame2.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Alt-Fire
+	
+	FrameIndex	PlFA	A	0	4
+	FrameIndex	PlFA	B	0	4
+	FrameIndex	PlFA	C	0	4
+	FrameIndex	PlFA	D	0	4
+
+	
+	FrameIndex	PlFA	A	1	0
+	FrameIndex	PlFA	B	1	1
+	FrameIndex	PlFA	C	1	2
+	FrameIndex	PlFA	D	1	3
+
+
+}
+
+// Dual Plasma
+
+Model DUalPlasmaRifles	
+{ 
+   Path "Models/Weapons/Hud/Plasma_Gun"
+   Model 0 "dualplasma.md3"
+   Skin 0 "Plasma.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+	
+	
+
+	//Aim and Fire
+	
+	FrameIndex	DUPL	A	0	4
+	FrameIndex	DUPL	B	0	5
+	FrameIndex	DUPL	C	0	6
+	FrameIndex	DUPL	D	0	7
+	FrameIndex	DUPL	E	0	8
+
+
+	//Reload Right
+	
+	FrameIndex	PLSR	A	0	18
+	FrameIndex	PLSR	B	0	19
+	FrameIndex	PLSR	C	0	20
+	FrameIndex	PLSR	D	0	21
+	FrameIndex	PLSR	E	0	22
+	FrameIndex	PLSR	F	0	23
+	FrameIndex	PLSR	G	0	24
+	FrameIndex	PLSR	H	0	25
+	FrameIndex	PLSR	I	0	26
+	FrameIndex	PLSR	J	0	27
+	FrameIndex	PLSR	K	0	28
+	FrameIndex	PLSR	L	0	29
+
+	
+	//Reload Left
+
+	FrameIndex	P2SR	A	0	30
+	FrameIndex	P2SR	B	0	31
+	FrameIndex	P2SR	C	0	32
+	FrameIndex	P2SR	D	0	33
+	FrameIndex	P2SR	E	0	34
+	FrameIndex	P2SR	F	0	35
+	FrameIndex	P2SR	G	0	36
+	FrameIndex	P2SR	H	0	37
+	FrameIndex	P2SR	I	0	38
+	FrameIndex	P2SR	J	0	39
+	FrameIndex	P2SR	K	0	40
+	FrameIndex	P2SR	L	0	41
+
+	
+	//Sprint
+
+	//Zoom
+
+}

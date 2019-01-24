@@ -1,0 +1,141 @@
+Model BrutalSMG
+{ 
+   Path "Models/Weapons/Hud/BrutalSMG"
+   Model 0 "BrutalSMG.md3"
+   Skin 0 "BrutalSMG.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+	NoInterpolation
+	
+   //Ready
+   
+	FrameIndex	SMGS	A	0	0
+	FrameIndex	SMGS	B	0	1
+	FrameIndex	SMGS	C	0	2
+   
+   
+   //Aim and Fire
+
+	FrameIndex  SMGG	A	0	3 
+	FrameIndex	SMGF	A	0	4
+	FrameIndex	SMGF	B	0	5
+	FrameIndex	SMGF	C	0	6
+	
+	//Reload
+	
+	FrameIndex	SMGR	A	0	7
+	FrameIndex	SMGR	B	0	8
+	FrameIndex	SMGR	C	0	9
+	FrameIndex	SMGR	D	0	10
+	FrameIndex	SMGR	E	0	11
+	FrameIndex	SMGR	F	0	12
+	FrameIndex	SMGR	G	0	13
+	FrameIndex	SMGR	H	0	14
+	FrameIndex	SMGR	I	0	15
+	FrameIndex	SMGR	J	0	16
+	FrameIndex	SMGR	K	0	17
+	FrameIndex	SMGR	L	0	18
+	FrameIndex	SMGR	M	0	19
+	FrameIndex	SMGR	N	0	20
+	FrameIndex	SMGR	O	0	21
+	FrameIndex	SMGR	P	0	22
+	FrameIndex	SMGR	Q	0	23
+	FrameIndex	SMGR	R	0	24
+	FrameIndex	SMGR	S	0	25
+	FrameIndex	SMGR	T	0	26
+
+	//Sprint
+	
+	FrameIndex	SMSP	A	0	2	
+	
+	//Zoom
+	
+	FrameIndex	SMGA	A	0	3
+	FrameIndex	SMGA	B	0	4
+	FrameIndex	SMGA	C	0	5
+	FrameIndex	SMGA	D	0	6
+	FrameIndex	SMGA	E	0	3
+	FrameIndex	SMGA	F	0	2
+
+}
+
+
+	//Dual SMG
+	
+Model DualSMG
+{ 
+   Path "Models/Weapons/Hud/BrutalSMG"
+   Model 0 "DualSMG.md3"
+   Skin 0 "BrutalSMG.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   ZOffset -5
+	NoInterpolation
+
+	//Ready
+	
+	FrameIndex	SM2S	A	0	0
+	FrameIndex	SM2S	B	0	1
+	FrameIndex	SM2S	C	0	2
+
+
+	//Aim and Fire
+	
+	FrameIndex	SM2G	A	0	3
+	FrameIndex	SM2F	A	0	4
+	FrameIndex	SM2F	B	0	5
+	FrameIndex	SM2F	C	0	6
+	FrameIndex	SM2F	D	0	7
+
+
+	//Reload Right
+	
+	FrameIndex	SMGR	A	0	8
+	FrameIndex	SMGR	B	0	9
+	FrameIndex	SMGR	C	0	10
+	FrameIndex	SMGR	D	0	11
+	FrameIndex	SMGR	E	0	12
+	FrameIndex	SMGR	F	0	13
+	FrameIndex	SMGR	G	0	14
+	FrameIndex	SMGR	H	0	15
+	FrameIndex	SMGR	I	0	16
+	FrameIndex	SMGR	J	0	17
+	FrameIndex	SMGR	K	0	18
+	FrameIndex	SMGR	L	0	19
+	FrameIndex	SMGR	M	0	20
+	FrameIndex	SMGR	N	0	21
+	FrameIndex	SMGR	O	0	22
+	FrameIndex	SMGR	P	0	23
+	FrameIndex	SMGR	Q	0	24
+	FrameIndex	SMGR	R	0	25
+	FrameIndex	SMGR	S	0	26
+	FrameIndex	SMGR	T	0	27
+
+	
+	//Reload Left
+
+	FrameIndex	SM2R	A	0	28
+	FrameIndex	SM2R	B	0	29
+	FrameIndex	SM2R	C	0	30
+	FrameIndex	SM2R	D	0	31
+	FrameIndex	SM2R	E	0	32
+	FrameIndex	SM2R	F	0	33
+	FrameIndex	SM2R	G	0	34
+	FrameIndex	SM2R	H	0	35
+	FrameIndex	SM2R	I	0	36
+	FrameIndex	SM2R	J	0	37
+	FrameIndex	SM2R	K	0	38
+	FrameIndex	SM2R	L	0	39
+	FrameIndex	SM2R	M	0	40
+	FrameIndex	SM2R	N	0	41
+	FrameIndex	SM2R	O	0	42
+	FrameIndex	SM2R	P	0	43
+	FrameIndex	SM2R	Q	0	44
+	FrameIndex	SM2R	R	0	45
+	FrameIndex	SM2R	S	0	46
+	FrameIndex	SM2R	T	0	47
+	
+	//Sprint
+	  
+}

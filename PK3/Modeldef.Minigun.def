@@ -1,0 +1,44 @@
+Model Minigun	
+{ 
+   Path "Models/Weapons/Hud/Minigun"
+   Model 0 "Minigun.md3"
+   Skin 0 "Minigun.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+
+	FrameIndex	CHGS	A	0	0
+	FrameIndex	CHGS	B	0	1
+	FrameIndex	CHGS	C	0	2
+	FrameIndex	CHGS	D	0	3
+
+	
+	//Aim and Fire
+	
+	FrameIndex	CHAG	A	0	4
+	FrameIndex	CHAG	B	0	5
+	FrameIndex	CHAG	C	0	6
+	FrameIndex	CHAG	D	0	7
+	
+	FrameIndex	CHAF	A	0	8
+	FrameIndex	CHAF	B	0	9
+	FrameIndex	CHAF	C	0	10
+	FrameIndex	CHAF	D	0	11
+
+	//Alt-Fire
+
+	FrameIndex	CHAE	A	0	12
+	FrameIndex	CHAE	B	0	13
+	FrameIndex	CHAE	C	0	14
+	FrameIndex	CHAE	D	0	15
+
+	//Sprint
+	
+	FrameIndex CHSP		A	0	3
+
+	//Zoom
+
+}

@@ -1,0 +1,80 @@
+Model Shot_Gun	
+{ 
+   Path "Models/Weapons/Hud/ShotGun"
+   Model 0 "Shotgun.md3"
+   Skin 0 "Shotgun.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   ZOffset -5
+	NoInterpolation
+	
+	//Ready
+
+	FrameIndex	SHSS	A	0	0
+	FrameIndex	SHSS	B	0	1
+	FrameIndex	SHSS	C	0	2
+	FrameIndex	SHSS	D	0	3
+
+
+
+
+	//Aim and Fire
+
+	FrameIndex	SHTN	A	0	4
+	FrameIndex	SHTA	A	0	4
+	FrameIndex	SHTA	B	0	5
+	FrameIndex	SHTA	C	0	6
+	FrameIndex	SHTA	D	0	7
+	FrameIndex	SHTA	E	0	8
+
+	//Pump
+	
+	FrameIndex	SHTN	B	0	9
+	FrameIndex	SHTN	C	0	10
+	FrameIndex	SHTN	D	0	11
+	FrameIndex	SHTN	E	0	12
+	FrameIndex	SHTN	F	0	13
+	FrameIndex	SHTN	G	0	14
+	FrameIndex	SHTN	H	0	15
+	FrameIndex	SHTN	I	0	16
+	FrameIndex	SHTN	J	0	17
+	FrameIndex	SHTN	K	0	18
+	FrameIndex	SHTN	L	0	19
+	FrameIndex	SHTN	M	0	20
+	FrameIndex	SHTN	N	0	21
+	FrameIndex	SHTN	O	0	22
+
+
+	//Reload
+
+	FrameIndex	SSHR	A	0	23
+	FrameIndex	SSHR	B	0	24
+	FrameIndex	SSHR	C	0	25
+	FrameIndex	SSHR	D	0	26
+	FrameIndex	SSHR	E	0	27
+	FrameIndex	SSHR	F	0	28
+	FrameIndex	SSHR	G	0	29
+	FrameIndex	SSHR	H	0	30
+	FrameIndex	SSHR	I	0	31
+
+
+	//Sprint
+
+	FrameIndex	STRN	A	0	3
+
+
+	//Zoom
+
+	FrameIndex	SHT8	A	0	4
+	FrameIndex	SHT8	D	0	4
+	FrameIndex	SHT8	E	0	4
+	FrameIndex	SHT8	F	0	5
+	FrameIndex	SHT8	G	0	6
+	FrameIndex	SHT8	H	0	8
+	FrameIndex	SHT8	I	0	32
+	FrameIndex	SHT8	J	0	33
+	FrameIndex	SHT8	K	0	34
+	FrameIndex	SHT8	L	0	35
+
+
+}

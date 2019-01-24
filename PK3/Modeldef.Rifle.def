@@ -1,0 +1,149 @@
+Model Rifle
+{ 
+   Path "Models/Weapons/Hud/Rifle"
+   Model 0 "Rifle.md3"
+   Skin 0 "Rifle.png"
+   Scale -1.0 1.0 1.0
+   Offset 5.0 0.0 0.0
+   ZOffset -5
+	NoInterpolation
+   
+	//Ready weapon
+	
+	FrameIndex RIFS A 0 0
+	FrameIndex RIFS B 0 1
+	FrameIndex RIFS C 0 2
+	
+
+
+	//Aim and Firing
+	
+   FrameIndex RIFG A 0 3
+   FrameIndex RIFF A 0 4
+   FrameIndex RIFF B 0 5
+   FrameIndex RIFF C 0 6
+   
+   
+   //Reload
+   
+   
+   FrameIndex RIFR A 0 7
+   FrameIndex RIFR B 0 8
+   FrameIndex RIFR C 0 9
+   FrameIndex RIFR D 0 10
+   FrameIndex RIFR E 0 11
+   FrameIndex RIFR F 0 12
+   FrameIndex RIFR G 0 13
+   FrameIndex RIFR H 0 14
+   FrameIndex RIFR I 0 15
+   FrameIndex RIFR J 0 16
+   FrameIndex RIFR K 0 17
+   FrameIndex RIFR L 0 18
+   FrameIndex RIFR M 0 19
+   FrameIndex RIFR N 0 20
+   FrameIndex RIFR O 0 21
+   FrameIndex RIFR P 0 22
+   FrameIndex RIFR Q 0 23
+   FrameIndex RIFR R 0 24
+   FrameIndex RIFR S 0 25
+   FrameIndex RIFR T 0 26
+   
+   //Zoom
+   
+   FrameIndex RIFZ A 0 27
+   FrameIndex RIFZ B 0 28
+   FrameIndex RIFZ C 0 29
+   
+   //Zoom Aim and Fire
+   
+   FrameIndex RI2G A 0 3
+   FrameIndex RI2F A 0 4
+   FrameIndex RI2F B 0 5
+   FrameIndex RI2F C 0 6
+   
+   //Sprint
+   
+   FrameIndex RISP A 0 30
+   FrameIndex RISP B 0 31
+   
+   //Start / Right reload
+   
+   FrameIndex R2RL A 0 21
+   FrameIndex R2RL B 0 22
+   FrameIndex R2RL C 0 23
+   FrameIndex R2RL D 0 24
+   FrameIndex R2RL E 0 25   
+   
+} 
+
+
+	//Dual Rifle
+	
+	
+	
+Model DualRifles
+{ 
+   Path "Models/Weapons/Hud/Rifle"
+   Model 0 "Rifle_Dual.md3"
+   Skin 0 "Rifle.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   ZOffset -5
+	NoInterpolation
+
+	//Aim and Firing
+	
+   FrameIndex DURI A 0 0
+   FrameIndex DURI B 0 1
+   FrameIndex DURI C 0 2
+   FrameIndex DURI D 0 3
+   FrameIndex DURI E 0 4
+   
+   
+   //Reload left
+
+   
+	FrameIndex	R2RR	A	0	5
+	FrameIndex	R2RR	B	0	6
+	FrameIndex	R2RR	C	0	7
+	FrameIndex	R2RR	D	0	8
+	FrameIndex	R2RR	E	0	9
+	FrameIndex	R2RR	F	0	10
+	FrameIndex	R2RR	G	0	11
+	FrameIndex	R2RR	H	0	12
+	FrameIndex	R2RR	I	0	13
+	FrameIndex	R2RR	J	0	14
+	FrameIndex	R2RR	K	0	15
+	FrameIndex	R2RR	L	0	16
+	FrameIndex	R2RR	M	0	17
+	FrameIndex	R2RR	N	0	18
+	FrameIndex	R2RR	O	0	19
+	
+	//Reload Right
+	
+	FrameIndex	R2RL	A	0	20
+	FrameIndex	R2RL	B	0	21
+	FrameIndex	R2RL	C	0	22
+	FrameIndex	R2RL	D	0	23
+	FrameIndex	R2RL	E	0	24
+	FrameIndex	R2RL	F	0	25
+	FrameIndex	R2RL	G	0	26
+	FrameIndex	R2RL	H	0	27
+	FrameIndex	R2RL	I	0	28
+	FrameIndex	R2RL	J	0	29
+	FrameIndex	R2RL	K	0	30
+	FrameIndex	R2RL	L	0	31
+	FrameIndex	R2RL	M	0	32
+	FrameIndex	R2RL	N	0	33
+	FrameIndex	R2RL	O	0	34
+	
+	
+	//Change?
+	
+	FrameIndex	DURR	A	0	35
+	FrameIndex	DURR	B	0	36
+	FrameIndex	DURR	C	0	37
+	FrameIndex	DURR	D	0	38
+	FrameIndex	DURR	E	0	39
+
+}
