@@ -1,0 +1,106 @@
+Model MP40	
+{ 
+   Path "Models/Weapons/Hud/MP40"
+   Model 0 "MP40.md3"
+   Skin 0 "MP40.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+
+	FrameIndex	MP4S	A	0	0
+	FrameIndex	MP4S	B	0	1
+
+
+	//Aim and Fire
+
+	FrameIndex	MP40	A	0	2
+	FrameIndex	MP40	B	0	3
+	FrameIndex	MP40	C	0	4
+	FrameIndex	MP40	D	0	5
+	FrameIndex	MP40	E	0	6
+
+	//Reload
+
+	FrameIndex	MP4R	A	0	7
+	FrameIndex	MP4R	B	0	8
+	FrameIndex	MP4R	C	0	9
+	FrameIndex	MP4R	D	0	10
+	FrameIndex	MP4R	E	0	11
+	FrameIndex	MP4R	F	0	12
+	FrameIndex	MP4R	G	0	13
+
+
+	//Sprint
+
+	FrameIndex	M40s	A	0	1
+
+	//Zoom
+	
+	FrameIndex	MP4D	A	0	2
+	FrameIndex	MP4D	B	0	2
+	FrameIndex	MP4D	C	0	2
+	
+	FrameIndex	MP41	A	0	2
+	FrameIndex	MP41	B	0	2
+	FrameIndex	MP41	C	0	2
+	FrameIndex	MP41	D	0	3
+	FrameIndex	MP41	E	0	3
+	FrameIndex	MP41	F	0	4
+	FrameIndex	MP41	G	0	5
+	FrameIndex	MP41	H	0	6
+	FrameIndex	MP41	I	0	6
+
+}
+
+
+Model DualMP40	
+{ 
+   Path "Models/Weapons/Hud/MP40"
+   Model 0 "Dual_MP40.md3"
+   Skin 0 "MP40.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+//Ready
+
+	//Aim and Fire
+
+	FrameIndex	MP42	A	0	2
+	FrameIndex	MP42	B	0	3
+	FrameIndex	MP42	C	0	4
+	FrameIndex	MP42	D	0	5
+	FrameIndex	MP42	E	0	6
+	FrameIndex	MP42	F	0	7
+
+	//Reload
+
+	FrameIndex	MP4R	A	0	7
+	FrameIndex	MP4R	B	0	8
+	FrameIndex	MP4R	C	0	9
+	FrameIndex	MP4R	D	0	10
+	FrameIndex	MP4R	E	0	11
+	FrameIndex	MP4R	F	0	12
+	FrameIndex	MP4R	G	0	13
+
+	//Reload Left
+	
+	FrameIndex	MP2R	A	0	14
+	FrameIndex	MP2R	B	0	15
+	FrameIndex	MP2R	C	0	16
+	FrameIndex	MP2R	D	0	17
+	FrameIndex	MP2R	E	0	18
+	FrameIndex	MP2R	F	0	19
+	FrameIndex	MP2R	G	0	20
+
+
+//Sprint
+
+
+//Zoom
+
+}

@@ -1,0 +1,63 @@
+Model GrenadeLauncher	
+{ 
+   Path "Models/Weapons/Hud/M79"
+   Model 0 "M79.md3"
+   Skin 0 "M79.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+
+	FrameIndex	GLSW	A	0	0
+	FrameIndex	GLSW	B	0	1
+	FrameIndex	GLSW	C	0	2
+
+
+	//Aim and Fire
+
+	FrameIndex	GLAN	A	0	3
+
+	FrameIndex	GLAF	A	0	4
+	FrameIndex	GLAF	B	0	5
+	FrameIndex	GLAF	C	0	6
+
+
+	//Reload
+
+	FrameIndex	GLR1	A	0	7
+	FrameIndex	GLR1	B	0	8
+	FrameIndex	GLR1	C	0	9
+	FrameIndex	GLR1	D	0	10
+	FrameIndex	GLR1	E	0	11
+	FrameIndex	GLR1	F	0	12
+	FrameIndex	GLR1	G	0	13
+	FrameIndex	GLR1	H	0	14
+	FrameIndex	GLR1	I	0	15
+	FrameIndex	GLR1	J	0	16
+	FrameIndex	GLR1	K	0	17
+	FrameIndex	GLR1	L	0	18
+	FrameIndex	GLR1	M	0	19
+	FrameIndex	GLR1	N	0	20
+	FrameIndex	GLR1	O	0	21
+	FrameIndex	GLR1	P	0	22
+	FrameIndex	GLR1	Q	0	23
+	FrameIndex	GLR1	R	0	24
+	FrameIndex	GLR1	S	0	25
+	FrameIndex	GLR1	T	0	26
+	FrameIndex	GLR1	U	0	27
+	FrameIndex	GLR1	V	0	28
+	FrameIndex	GLR1	W	0	29
+	FrameIndex	GLR1	X	0	30
+	FrameIndex	GLR1	Y	0	31
+	FrameIndex	GLR1	Z	0	32
+
+
+	//Sprint
+
+	FrameIndex	GLAN	S	0	2
+
+//Zoom
+
+}

@@ -1,0 +1,73 @@
+Model BIG_FUCKING_GUN	
+{ 
+   Path "Models/Weapons/Hud/BFG"
+   Model 0 "BFG.md3"
+   Skin 0 "BFG.png"
+   Scale -1.0 1.0 1.0
+   Offset 20.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+
+	FrameIndex	BFGS	A	0	0
+	FrameIndex	BFGS	B	0	1
+	FrameIndex	BFGS	C	0	2
+	FrameIndex	BFGS	D	0	3
+	FrameIndex	BFGS	E	0	4
+	FrameIndex	BFGS	F	0	5
+
+
+	//Aim and Fire
+
+	FrameIndex	BFGN	A	0	6
+
+
+//Reload
+
+//Sprint
+
+	FrameIndex	BFSP	A	0	5
+
+//Zoom
+
+}
+
+Model BIG_FUCKING_GUN	
+{ 
+   Path "Models/Weapons/Hud/BFG"
+   Model 0 "BFG.md3"
+   Skin 0 "BFG2.png"
+   Model 1 "BFG_Flame.md3"
+   Skin 1 "BFG_Flame.png"
+   Scale -1.0 1.0 1.0
+   Offset 20.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+   
+	//Fire
+   
+   	FrameIndex	BFGC	A	0	7
+	FrameIndex	BFGC	B	0	8
+	FrameIndex	BFGC	C	0	9
+	FrameIndex	BFGC	D	0	10
+	
+   	FrameIndex	BFGC	A	1	7
+	FrameIndex	BFGC	B	1	8
+	FrameIndex	BFGC	C	1	9
+	FrameIndex	BFGC	D	1	10
+	
+	FrameIndex	BFGA	A	0	11
+	FrameIndex	BFGA	B	0	12
+	FrameIndex	BFGA	C	0	13
+	FrameIndex	BFGA	D	0	14
+	FrameIndex	BFGA	E	0	15
+	
+	FrameIndex	BFGA	A	1	11
+	FrameIndex	BFGA	B	1	12
+	FrameIndex	BFGA	C	1	13
+	FrameIndex	BFGA	D	1	14
+	FrameIndex	BFGA	E	1	15
+
+	
+}
