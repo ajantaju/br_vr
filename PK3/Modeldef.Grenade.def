@@ -1,0 +1,113 @@
+Model HandGrenades	
+{ 
+   Path "Models/Weapons/Hud/Grenade"
+   Model 0 "nade.md3"
+   Skin 0 "nade.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+
+	FrameIndex	GRHO	A	0	0
+	FrameIndex	GRHO	B	0	1
+
+	//Aim and Fire
+
+	FrameIndex	GRHO	C	0	2
+
+	FrameIndex	GRTH	A	0	3
+	FrameIndex	GRTH	B	0	4
+	FrameIndex	GRTH	C	0	5
+	FrameIndex	GRTH	D	0	6
+	FrameIndex	GRTH	E	0	7
+	FrameIndex	GRTH	F	0	8
+	FrameIndex	GRTH	G	0	9
+	
+	FrameIndex	GRTH	H	0	10
+	FrameIndex	GRTH	I	0	11
+	FrameIndex	GRTH	J	0	12
+	FrameIndex	GRTH	K	0	13
+	FrameIndex	GRTH	L	0	14
+	FrameIndex	GRTH	M	0	15
+
+}
+
+Model HandGrenade
+{ 
+   Path "Models/Weapons/Hud/Grenade"
+   Model 0 "nade.md3"
+   Skin 0 "nade.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+	
+	//Flying nade
+
+	FrameIndex	GRND	A	0	16
+	FrameIndex	GRND	B	0	17
+	FrameIndex	GRND	C	0	18
+	FrameIndex	GRND	D	0	19
+	FrameIndex	GRND	E	0	20
+	FrameIndex	GRND	F	0	21
+	FrameIndex	GRND	G	0	22
+	FrameIndex	GRND	H	0	23
+	FrameIndex	GRND	I	0	24
+	FrameIndex	GRND	J	0	25
+	FrameIndex	GRND	K	0	26
+
+
+}
+
+Model HandGrenadeDroped
+{ 
+   Path "Models/Weapons/Hud/Grenade"
+   Model 0 "nade.md3"
+   Skin 0 "nade.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+	
+	//Flying nade
+
+	FrameIndex	GRND	A	0	16
+	FrameIndex	GRND	B	0	17
+	FrameIndex	GRND	C	0	18
+	FrameIndex	GRND	D	0	19
+	FrameIndex	GRND	E	0	20
+	FrameIndex	GRND	F	0	21
+	FrameIndex	GRND	G	0	22
+	FrameIndex	GRND	H	0	23
+	FrameIndex	GRND	I	0	24
+	FrameIndex	GRND	J	0	25
+	FrameIndex	GRND	K	0	26
+
+
+}
+
+Model HandGrenadeAlt
+{ 
+   Path "Models/Weapons/Hud/Grenade"
+   Model 0 "nade.md3"
+   Skin 0 "nade.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+	
+	//Flying nade
+
+	FrameIndex	GRND	A	0	16
+	FrameIndex	GRND	B	0	17
+	FrameIndex	GRND	C	0	18
+	FrameIndex	GRND	D	0	19
+	FrameIndex	GRND	E	0	20
+	FrameIndex	GRND	F	0	21
+	FrameIndex	GRND	G	0	22
+	FrameIndex	GRND	H	0	23
+	FrameIndex	GRND	I	0	24
+	FrameIndex	GRND	J	0	25
+	FrameIndex	GRND	K	0	26
+
+
+}
