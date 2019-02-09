@@ -55,7 +55,9 @@ Model Plasma_Gun
 	FrameIndex	PLSR	L	0	29
 
 
-
+	//Sprint
+	
+	FrameIndex	PLSP	A	0	3
 	
 }
 
@@ -171,9 +173,6 @@ Model DUalPlasmaRifles
 	FrameIndex	P2SR	K	0	40
 	FrameIndex	P2SR	L	0	41
 
-	
-	//Sprint
 
-	//Zoom
 
 }

@@ -1,0 +1,75 @@
+Model BFG10k	
+{ 
+   Path "Models/Weapons/Hud/BFG"
+   Model 0 "BFG_10k.md3"
+   Skin 0 "BFG_10k.png"
+   Model 1 "BFG_Flame.md3"
+   Skin 1 "BFG_Flame.png"
+   Scale -1.0 1.0 1.0
+   Offset 20.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+
+	FrameIndex	BG2G	A	0	6
+	FrameIndex	BG2G	B	0	6
+	FrameIndex	BG2G	C	0	6
+	FrameIndex	BG2G	D	0	6
+	
+	FrameIndex	BG2G	A	1	6
+	FrameIndex	BG2G	B	1	7
+	FrameIndex	BG2G	C	1	8
+	FrameIndex	BG2G	D	1	9
+	
+	//Aim and Fire
+
+	FrameIndex	BG2G	E	0	6
+	
+	FrameIndex	BG2G	E	1	10
+
+
+}
+
+Model BFG10k	
+{ 
+   Path "Models/Weapons/Hud/BFG"
+   Model 0 "BFG_10k.md3"
+   Skin 0 "BFG_10k2.png"
+   Model 1 "BFG_Flame.md3"
+   Skin 1 "BFG_Flame.png"
+   Scale -1.0 1.0 1.0
+   Offset 20.0 0.0 0.0
+   //NoInterpolation
+   ZOffset -5
+   
+	//Fire
+   
+   	FrameIndex	BG2G	F	0	7
+	FrameIndex	BG2G	G	0	8
+	FrameIndex	BG2G	H	0	9
+	FrameIndex	BG2G	I	0	10
+	
+   	FrameIndex	BG2G	F	1	7
+	FrameIndex	BG2G	G	1	8
+	FrameIndex	BG2G	H	1	9
+	FrameIndex	BG2G	I	1	10
+	
+	FrameIndex	BG2G	J	0	11
+	FrameIndex	BG2G	K	0	12
+	FrameIndex	BG2G	L	0	13
+	FrameIndex	BG2G	M	0	14
+	FrameIndex	BG2G	N	0	15
+	FrameIndex	BG2G	O	0	15
+	
+	FrameIndex	BG2G	J	1	11
+	FrameIndex	BG2G	K	1	12
+	FrameIndex	BG2G	L	1	13
+	FrameIndex	BG2G	M	1	14
+	FrameIndex	BG2G	N	1	15
+	FrameIndex	BG2G	O	1	-1
+	
+	
+}
+
+}
