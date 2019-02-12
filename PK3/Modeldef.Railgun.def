@@ -1,0 +1,68 @@
+Model RailGun	
+{ 
+   Path "Models/Weapons/Hud/RailGun"
+   Model 0 "RailGun.md3"
+   Skin 0 "RailGun.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+
+	FrameIndex	RAIS	A	0	0
+	FrameIndex	RAIS	B	0	1
+	FrameIndex	RAIS	C	0	2
+
+
+//Aim and Fire
+
+	FrameIndex	RAIL	D	0	3
+	
+	FrameIndex	RAIF	A	0	4
+	FrameIndex	RAIF	B	0	5
+	FrameIndex	RAIF	C	0	6
+	FrameIndex	RAIF	D	0	7
+	FrameIndex	RAIF	E	0	8
+	FrameIndex	RAIF	F	0	9
+	FrameIndex	RAIF	G	0	10
+
+
+	//Reload
+
+	FrameIndex	RAIR	A	0	11
+	FrameIndex	RAIR	B	0	12
+	FrameIndex	RAIR	C	0	13
+	FrameIndex	RAIR	D	0	14
+	FrameIndex	RAIR	E	0	15
+	FrameIndex	RAIR	F	0	16
+	
+	FrameIndex	RAIR	G	0	17
+	FrameIndex	RAIR	H	0	18
+	FrameIndex	RAIR	I	0	19
+	FrameIndex	RAIR	J	0	20
+	FrameIndex	RAIR	K	0	21
+	FrameIndex	RAIR	L	0	22
+	FrameIndex	RAIR	M	0	23
+	FrameIndex	RAIR	N	0	24
+	FrameIndex	RAIR	O	0	25
+	FrameIndex	RAIR	P	0	26
+	FrameIndex	RAIR	Q	0	27
+	FrameIndex	RAIR	R	0	28
+	FrameIndex	RAIR	S	0	29
+	FrameIndex	RAIR	T	0	30
+	FrameIndex	RAIR	U	0	31
+	FrameIndex	RAIR	V	0	32
+	FrameIndex	RAIR	W	0	33
+	FrameIndex	RAIR	X	0	34
+
+
+	//Sprint
+
+	FrameIndex	RAIL	A	0	2
+	FrameIndex	RAIL	B	0	2
+	FrameIndex	RAIL	C	0	2
+
+//Zoom
+
+}

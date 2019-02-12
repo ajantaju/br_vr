@@ -1,0 +1,72 @@
+Model AssaultShotgun	
+{ 
+   Path "Models/Weapons/Hud/AssaultShotgun"
+   Model 0 "AssaultShotgun.md3"
+   Skin 0 "AssaultShotgun.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+	//Ready
+
+	FrameIndex	A12S	A	0	0
+	FrameIndex	A12S	B	0	1
+	FrameIndex	A12S	C	0	2
+	FrameIndex	A12S	D	0	3
+
+
+	//Aim and Fire
+
+	FrameIndex	A12G	A	0	4
+	
+	FrameIndex	A12F	A	0	5
+	FrameIndex	A12F	B	0	6
+	FrameIndex	A12F	C	0	7
+	FrameIndex	A12F	D	0	8
+	FrameIndex	A12F	E	0	9
+	FrameIndex	A12F	F	0	10
+
+
+
+	//Reload
+
+	FrameIndex	A12R	A	0	11
+	FrameIndex	A12R	B	0	12
+	FrameIndex	A12R	C	0	13
+	FrameIndex	A12R	D	0	14
+	FrameIndex	A12R	E	0	15
+	FrameIndex	A12R	F	0	16
+	FrameIndex	A12R	G	0	17
+	FrameIndex	A12R	H	0	18
+	FrameIndex	A12R	I	0	19
+	FrameIndex	A12R	J	0	20
+	FrameIndex	A12R	K	0	21
+	FrameIndex	A12R	L	0	22
+	FrameIndex	A12R	M	0	23
+	FrameIndex	A12R	N	0	24
+	FrameIndex	A12R	O	0	25
+	FrameIndex	A12R	P	0	26
+	FrameIndex	A12R	Q	0	27
+	FrameIndex	A12R	R	0	28
+	FrameIndex	A12R	S	0	29
+	FrameIndex	A12R	T	0	30
+	FrameIndex	A12R	U	0	31
+
+
+//Sprint
+
+	FrameIndex A1SP		A	0	3
+
+	//Zoom
+
+	FrameIndex	A12A	A	0	4
+	FrameIndex	A12A	B	0	5
+	FrameIndex	A12A	C	0	6
+	FrameIndex	A12A	D	0	7
+	FrameIndex	A12A	E	0	8
+	FrameIndex	A12A	F	0	9
+	FrameIndex	A12A	G	0	10
+
+
+}
