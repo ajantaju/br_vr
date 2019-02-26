@@ -12,8 +12,8 @@ To install:
 	Extract OpenVRDoom.
 	Copy Original Doom wads to folder.
 	Extract bd21RC6 (1).zip to folder.
-	Copy PK3 folder from git to folder.
-	Run with gzdoom.exe -file bd21RC6.pk3 -file PK3 -iwad WADS_NAME_YOU_WANT_TO_USE.wad
+	Download .zip from release page and copy it to folder.
+	Run with gzdoom.exe -file bd21RC6.pk3 -file BR_VR_b1.zip -iwad WADS_NAME_YOU_WANT_TO_USE.wad
 
 INI setting:
 
