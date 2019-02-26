@@ -4,7 +4,7 @@ Model Rocket_Launcher
    Model 0 "RPG.md3"
    Skin 0 "RPG.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
    ZOffset -5
 

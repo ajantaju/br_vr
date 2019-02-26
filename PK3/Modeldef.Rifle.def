@@ -4,7 +4,7 @@ Model Rifle
    Model 0 "Rifle.md3"
    Skin 0 "Rifle.png"
    Scale -1.0 1.0 1.0
-   Offset 5.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    ZOffset -5
 	NoInterpolation
    
@@ -87,7 +87,7 @@ Model DualRifles
    Model 0 "Rifle_Dual.md3"
    Skin 0 "Rifle.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    ZOffset -5
 	NoInterpolation
 

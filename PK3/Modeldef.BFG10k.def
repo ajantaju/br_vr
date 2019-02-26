@@ -6,7 +6,7 @@ Model BFG10k
    Model 1 "BFG_Flame.md3"
    Skin 1 "BFG_Flame.png"
    Scale -1.0 1.0 1.0
-   Offset 20.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
    ZOffset -5
 
@@ -39,7 +39,7 @@ Model BFG10k
    Model 1 "BFG_Flame.md3"
    Skin 1 "BFG_Flame.png"
    Scale -1.0 1.0 1.0
-   Offset 20.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    //NoInterpolation
    ZOffset -5
    

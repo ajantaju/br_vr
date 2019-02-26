@@ -3,10 +3,11 @@ Model BrutalAxe
    Path "Models/Weapons/Hud/BrutalAxe"
    Model 0 "BrutalAxe.md3"
    Skin 0 "BrutalAxe.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    NoInterpolation
-   ZOffset -15
+   ZOffset 5
+   PitchOffset -10
 
 	//Ready
 
@@ -44,10 +45,11 @@ Model BrutalAxe
    Path "Models/Weapons/Hud/BrutalAxe"
    Model 0 "BrutalAxe.md3"
    Skin 0 "BrutalAxeR.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    NoInterpolation
-   ZOffset -15
+   ZOffset 5
+   PitchOffset -10
 
 	//Ready
 
@@ -85,10 +87,11 @@ Model BrutalAxe
    Path "Models/Weapons/Hud/BrutalAxe"
    Model 0 "BrutalAxe.md3"
    Skin 0 "BrutalAxeR.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    NoInterpolation
-   ZOffset -5
+   ZOffset 5
+   PitchOffset -10
 
 	//Ready
 
@@ -126,10 +129,11 @@ Model BrutalAxe
    Path "Models/Weapons/Hud/BrutalAxe"
    Model 0 "BrutalAxe.md3"
    Skin 0 "BrutalAxeR.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    NoInterpolation
-   ZOffset -5
+   ZOffset 5
+   PitchOffset -10
 
 	//Ready
 

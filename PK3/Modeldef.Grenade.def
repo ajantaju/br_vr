@@ -4,9 +4,9 @@ Model HandGrenades
    Model 0 "nade.md3"
    Skin 0 "nade.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
-   ZOffset -5
+   ZOffset -10
 
 	//Ready
 
@@ -40,7 +40,7 @@ Model HandGrenade
    Model 0 "nade.md3"
    Skin 0 "nade.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
 	
 	//Flying nade
@@ -66,7 +66,7 @@ Model HandGrenadeDroped
    Model 0 "nade.md3"
    Skin 0 "nade.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
 	
 	//Flying nade
@@ -92,7 +92,7 @@ Model HandGrenadeAlt
    Model 0 "nade.md3"
    Skin 0 "nade.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
 	
 	//Flying nade

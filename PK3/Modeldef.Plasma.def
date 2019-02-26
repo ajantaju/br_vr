@@ -4,7 +4,7 @@ Model Plasma_Gun
    Model 0 "Plasma.md3"
    Skin 0 "Plasma.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
    ZOffset -5
 
@@ -69,7 +69,7 @@ Model Plasma_Gun
    Model 1 "p_flame1.md3"
    Skin 1 "p_flame1.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
    ZOffset -5
 
@@ -97,7 +97,7 @@ Model Plasma_Gun
    Model 1 "p_flame1.md3"
    Skin 1 "p_flame2.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
    ZOffset -5
 
@@ -125,7 +125,7 @@ Model DUalPlasmaRifles
    Model 0 "dualplasma.md3"
    Skin 0 "Plasma.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
    ZOffset -5
 

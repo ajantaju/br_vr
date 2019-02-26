@@ -4,7 +4,7 @@ Model Shot_Gun
    Model 0 "Shotgun.md3"
    Skin 0 "Shotgun.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    ZOffset -5
 	NoInterpolation
 	

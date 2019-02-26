@@ -3,8 +3,8 @@ Model Chain_saw
    Path "Models/Weapons/Hud/Chain_saw"
    Model 0 "Chain_saw.md3"
    Skin 0 "Chain_saw.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    ZOffset -5
    NOINTERPOLATION
 
@@ -78,8 +78,8 @@ Model Chain_saw
    Path "Models/Weapons/Hud/Chain_saw"
    Model 0 "Chain_saw.md3"
    Skin 0 "Chain_saw_R.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    ZOffset -5
    NOINTERPOLATION
    
@@ -151,8 +151,8 @@ Model Chain_saw
    Skin 0 "Chain_saw_R.png"
    Model 1 "Chain_saw_blood.md3"
    Skin 1 "BloodR.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    ZOffset -5
    NOINTERPOLATION
 
@@ -181,8 +181,8 @@ Model Chain_saw
    Path "Models/Weapons/Hud/Chain_saw"
    Model 0 "Chain_saw.md3"
    Skin 0 "Chain_saw_G.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    ZOffset -5
    NOINTERPOLATION
    
@@ -252,8 +252,8 @@ Model Chain_saw
    Skin 0 "Chain_saw_G.png"
    Model 1 "Chain_saw_blood.md3"
    Skin 1 "BloodG.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    ZOffset -5
    NOINTERPOLATION
 
@@ -282,8 +282,8 @@ Model Chain_saw
    Path "Models/Weapons/Hud/Chain_saw"
    Model 0 "Chain_saw.md3"
    Skin 0 "Chain_saw_B.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    ZOffset -5
    NOINTERPOLATION
    
@@ -352,8 +352,8 @@ Model Chain_saw
    Skin 0 "Chain_saw_B.png"
    Model 1 "Chain_saw_blood.md3"
    Skin 1 "BloodB.png"
-   Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Scale -1.5 1.5 1.5
+   Offset 0.0 10.0 0.0
    ZOffset -5
    NOINTERPOLATION
 

@@ -4,7 +4,7 @@ Model RailGun
    Model 0 "RailGun.md3"
    Skin 0 "RailGun.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
    ZOffset -5
 

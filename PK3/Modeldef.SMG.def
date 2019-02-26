@@ -69,7 +69,7 @@ Model DualSMG
    Model 0 "DualSMG.md3"
    Skin 0 "BrutalSMG.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    ZOffset -5
 	NoInterpolation
 

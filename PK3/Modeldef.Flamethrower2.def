@@ -1,0 +1,34 @@
+Model Flamethrower2	
+{ 
+   Path "Models/Weapons/Hud/Flamethrower2"
+   Model 0 "Flamethrower2.md3"
+   Skin 0 "Flamethrower2.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+
+//Aim and Fire
+
+FrameIndex	FLMT	A	0	0
+FrameIndex	FLMT	B	0	1
+FrameIndex	FLMT	C	0	2
+FrameIndex	FLMT	D	0	3
+FrameIndex	FLMT	E	0	4
+
+
+}
+
+Model Flamethrower2
+{ 
+   Path "Models/Weapons/Hud/Flamethrower2"
+   Model 0 "Flamethrower2.md3"
+   Skin 0 "Flamethrower2.png"
+   Scale -0.8 0.8 0.8
+   Offset 25.0 0.0 20.0
+   ROTATING
+   
+   FrameIndex	FLMT	F	0	5
+   
+}

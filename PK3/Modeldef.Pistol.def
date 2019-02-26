@@ -4,7 +4,7 @@ Model BrutalPistol
    Model 0 "BrutalPistol.md3"
    Skin 0 "BrutalPistol.png"
    Scale -1.0 1.0 1.0
-   Offset 0.0 0.0 0.0
+   Offset 0.0 -4.0 0.0
    ZOffset -5
 	NoInterpolation
    
@@ -76,7 +76,7 @@ Model DualPistols
    Model 0 "DualPistol.md3"
    Skin 0 "BrutalPistol.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 -4.0 0.0
    ZOffset -5
    NoInterpolation
    

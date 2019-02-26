@@ -4,7 +4,7 @@ Model MP40
    Model 0 "MP40.md3"
    Skin 0 "MP40.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
    ZOffset -5
 
@@ -62,7 +62,7 @@ Model DualMP40
    Model 0 "Dual_MP40.md3"
    Skin 0 "MP40.png"
    Scale -1.0 1.0 1.0
-   Offset 10.0 0.0 0.0
+   Offset 0.0 0.0 0.0
    NoInterpolation
    ZOffset -5
 
