@@ -1,0 +1,36 @@
+Model HellishMissileLauncher	
+{ 
+   Path "Models/Weapons/Hud/HellishMissile"
+   Model 0 "HellishMissile.md3"
+   Skin 0 "HellishMissile.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+//Ready
+
+	FrameIndex	RVCG	A	0	0
+
+//Aim and Fire
+
+	FrameIndex	RVCG	B	0	1
+	FrameIndex	RVCG	C	0	2
+	FrameIndex	RVCG	D	0	3
+	FrameIndex	RVCG	E	0	4
+	
+	FrameIndex	RVCG	F	0	5
+	FrameIndex	RVCG	G	0	6
+	FrameIndex	RVCG	H	0	7
+	FrameIndex	RVCG	I	0	8
+
+
+//No Target?
+
+	FrameIndex	RVCG	J	0	9
+
+
+//Sprint
+
+//Zoom
+
+}
