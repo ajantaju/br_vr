@@ -1,0 +1,107 @@
+Model Revolver
+{ 
+   Path "Models/Weapons/Hud/Revolver"
+   Model 0 "Revolver.md3"
+   Skin 0 "Revolver.png"
+   Scale -1.0 1.0 1.0
+   Offset 30.0 0.0 0.0
+   ZOffset -5
+
+
+//Aim and Fire
+
+FrameIndex	REVO	A	0	0
+FrameIndex	REVO	B	0	1
+FrameIndex	REVO	C	0	2
+FrameIndex	REVO	D	0	3
+FrameIndex	REVO	E	0	4
+FrameIndex	REVO	F	0	5
+FrameIndex	REVO	G	0	6
+FrameIndex	REVO	H	0	7
+FrameIndex	REVO	I	0	8
+FrameIndex	REVO	J	0	9
+FrameIndex	REVO	K	0	10
+FrameIndex	REVO	L	0	11
+FrameIndex	REVO	M	0	12
+FrameIndex	REVO	N	0	13
+FrameIndex	REVO	O	0	14
+FrameIndex	REVO	P	0	15
+FrameIndex	REVO	Q	0	16
+FrameIndex	REVO	R	0	17
+	
+//Reload
+
+FrameIndex	REVR	A	0	18
+FrameIndex	REVR	B	0	19
+FrameIndex	REVR	C	0	20
+FrameIndex	REVR	D	0	21
+FrameIndex	REVR	E	0	22
+FrameIndex	REVR	F	0	23
+FrameIndex	REVR	G	0	24
+FrameIndex	REVR	H	0	25
+FrameIndex	REVR	I	0	26
+FrameIndex	REVR	J	0	27
+FrameIndex	REVR	K	0	28
+FrameIndex	REVR	L	0	29
+FrameIndex	REVR	M	0	30
+
+
+//Sprint
+
+FrameIndex	REVP	B	0	31
+
+}
+
+Model Revolver2
+{ 
+   Path "Models/Weapons/Hud/Revolver"
+   Model 0 "Revolver.md3"
+   Skin 0 "Revolver.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+
+//Aim and Fire
+
+FrameIndex	REVO	A	0	0
+FrameIndex	REVO	B	0	1
+FrameIndex	REVO	C	0	2
+FrameIndex	REVO	D	0	3
+FrameIndex	REVO	E	0	4
+FrameIndex	REVO	F	0	5
+FrameIndex	REVO	G	0	6
+FrameIndex	REVO	H	0	7
+FrameIndex	REVO	I	0	8
+FrameIndex	REVO	J	0	9
+FrameIndex	REVO	K	0	10
+FrameIndex	REVO	L	0	11
+FrameIndex	REVO	M	0	12
+FrameIndex	REVO	N	0	13
+FrameIndex	REVO	O	0	14
+FrameIndex	REVO	P	0	15
+FrameIndex	REVO	Q	0	16
+FrameIndex	REVO	R	0	17
+	
+//Reload
+
+FrameIndex	REVR	A	0	18
+FrameIndex	REVR	B	0	19
+FrameIndex	REVR	C	0	20
+FrameIndex	REVR	D	0	21
+FrameIndex	REVR	E	0	22
+FrameIndex	REVR	F	0	23
+FrameIndex	REVR	G	0	24
+FrameIndex	REVR	H	0	25
+FrameIndex	REVR	I	0	26
+FrameIndex	REVR	J	0	27
+FrameIndex	REVR	K	0	28
+FrameIndex	REVR	L	0	29
+FrameIndex	REVR	M	0	30
+
+
+//Sprint
+
+FrameIndex	REVP	B	0	31
+
+}

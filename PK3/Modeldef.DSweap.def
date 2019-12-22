@@ -1,0 +1,26 @@
+Model DSweap	
+{ 
+   Path "Models/Weapons/Hud/DSweap"
+   Model 0 "DSweap.md3"
+   Skin 0 "DSweap.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+
+//Aim Fire
+
+FrameIndex	DSLA	A	0	0
+FrameIndex	DSLA	B	0	1
+FrameIndex	DSLA	C	0	2
+FrameIndex	DSLA	D	0	3
+FrameIndex	DSLA	E	0	4
+
+//Ready
+
+FrameIndex	DSLC	A	0	5
+FrameIndex	DSLC	B	0	6
+FrameIndex	DSLC	C	0	7
+FrameIndex	DSLC	D	0	8
+
+}
