@@ -60,8 +60,10 @@ https://sketchfab.com/3d-models/rd-100-adbee6d8720b469b9fd24669974f29a2
  Flame Thrower (Team Fortress 2) by arminalcapon
 https://sketchfab.com/3d-models/flame-thrower-team-fortress-2-f672dd4051894bb0a885c3b69925cc63
 
- Revenant Missile launcher By id Software (Remixed from Doom 2016, go buy it now!)
+ Revenant Missile launcher and Reaper By id Software (Remixed from Doom 2016, go buy it now!)
 https://bethesda.net/en/game/doom-2016
+
+Mancubus Flame Cannon by Arthur Manhaes.
 
 
 All textures have been edited more or less.

@@ -1,0 +1,33 @@
+Model FlameCannon	
+{ 
+   Path "Models/Weapons/Hud/FlameCannon"
+   Model 0 "FlameCannon.md3"
+   Skin 0 "FlameCannon.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+//Ready
+
+	FrameIndex	FLMG	A	0	0
+
+//Aim and Fire
+
+	FrameIndex	FLMF	A	0	1
+	FrameIndex	FLMF	B	0	2
+	FrameIndex	FLMF	C	0	3
+	FrameIndex	FLMF	D	0	4
+	FrameIndex	FLMF	E	0	5
+	FrameIndex	FLMF	F	0	6
+	FrameIndex	FLMF	G	0	7
+	
+
+
+
+
+
+//Sprint
+
+//Zoom
+
+}

@@ -1,0 +1,48 @@
+Model Unmaker	
+{ 
+   Path "Models/Weapons/Hud/Unmaker"
+   Model 0 "Unmaker.md3"
+   Skin 0 "Unmaker.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+
+
+//Aim and Idle
+
+	FrameIndex	UNHG	A	0	0
+	FrameIndex	UNHG	B	0	1
+	FrameIndex	UNHG	C	0	2
+	FrameIndex	UNHG	D	0	3
+	
+//ready weapon
+	
+	FrameIndex	UNHS	A	0	4
+	FrameIndex	UNHS	B	0	5
+	FrameIndex	UNHS	C	0	6
+	FrameIndex	UNHS	D	0	7
+	
+	
+//Firing
+	
+	FrameIndex	UNHF	A	0	8
+	FrameIndex	UNHF	B	0	9
+	FrameIndex	UNHF	C	0	10
+	FrameIndex	UNHF	D	0	11
+	FrameIndex	UNHF	E	0	12
+	FrameIndex	UNHF	F	0	13
+	FrameIndex	UNHF	G	0	14
+	FrameIndex	UNHF	H	0	15
+
+	
+
+
+
+
+
+//Sprint
+
+//Zoom
+
+}
