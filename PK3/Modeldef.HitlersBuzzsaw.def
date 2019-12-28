@@ -1,0 +1,17 @@
+Model HitlersBuzzsaw	
+{ 
+   Path "Models/Weapons/Hud/HitlersBuzzsaw"
+   Model 0 "HitlersBuzzsaw.md3"
+   Skin 0 "HitlersBuzzsaw.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+
+//Aim Fire
+
+FrameIndex	HBUS	A	0	0
+FrameIndex	HBUS	B	0	1
+FrameIndex	HBUS	C	0	2
+
+}

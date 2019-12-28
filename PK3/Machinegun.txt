@@ -207,7 +207,7 @@ ACTOR Machinegun : BrutalWeapon
 			TNT1 AAAAAA 0 BRIGHT A_FireCustomMissile("ShotgunParticles", random(-16,16), 0, -1, random(-9,9))
 			MGN2 A 0 BRIGHT A_FireCustomMissile("ShortGrenade", 0, 1, 0, 0)
 			MGN1 A 0 A_SetPitch(-5.0 + pitch)
-			MGN1 A 0 A_Recoil(8)
+		//	MGN1 A 0 A_Recoil(8)
 			MGN2 BC 1 BRIGHT A_SetPitch(1.0 + pitch)
 			MGN2 DEF 1 A_SetPitch(1.0 + pitch)
 			MGN1 A 0 A_GiveInventory("FiredMGGrenade", 1)
