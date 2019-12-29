@@ -71,3 +71,27 @@ Model Rocket_Launcher
 
 
 }
+
+
+Model Rocket_Launcher
+
+{ 
+   Path "Models/Weapons/Hud/RPG"
+   Model 0 "SnipaRPG.md3"
+   Skin 0 "Snipa.png"
+   Model 1 "RPG.md3"
+   Skin 1 "RPG.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+   
+   	FrameIndex	SNIP	A	0	0
+	FrameIndex	SNIP	A	1	4
+
+	FrameIndex	RLNG	A	0	0
+	FrameIndex	RLNG	B	0	0
+	FrameIndex	RLNG	C	0	0
+	FrameIndex	RLNG	D	0	0
+   
+}

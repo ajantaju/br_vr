@@ -65,4 +65,25 @@ Model RailGun
 
 //Zoom
 
+
+	
+
+}
+
+Model RailGun
+
+{ 
+   Path "Models/Weapons/Hud/Railgun"
+   Model 0 "SnipaRG.md3"
+   Skin 0 "Snipa.png"
+   Model 1 "RailGun.md3"
+   Skin 1 "Railgun.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+   
+   	FrameIndex	SNIP	A	0	0
+	FrameIndex	SNIP	A	1	36
+   
 }
