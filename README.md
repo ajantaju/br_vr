@@ -22,3 +22,5 @@ INI setting:
 
 Import/export tool used for Blender:
 https://en.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/MD3
+	and
+https://github.com/Xabis/blender-md3
