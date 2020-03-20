@@ -15,7 +15,7 @@ To install:
 	Copy download latest version https://github.com/ajantaju/br_vr/releases to folder.
 	Run with gzdoom.exe -file brutalv21.pk3 -file LATEST_VERSION_F*ILE_NAME -iwad WADS_NAME_YOU_WANT_TO_USE.wad
 	
-	OR use ZDL: https://github.com/lcferrum/qzdl/releases to config all your Doom needs. (Highly recommended.)
+OR use ZDL: https://github.com/lcferrum/qzdl/releases to config all your Doom needs. (Highly recommended.)
 
 INI setting:
 
