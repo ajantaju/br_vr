@@ -9,10 +9,10 @@ https://www.moddb.com/mods/brutal-doom
 
 To install:
 
-	Extract GZDoom-VR.
+	Extract GZDoom-VR to a folder.
 	Copy Original Doom wads to folder.
 	Extract Brutalv21.zip to folder.
-	Copy download latest version https://github.com/ajantaju/br_vr/releases to folder.
+	Copy latest version https://github.com/ajantaju/br_vr/releases to folder.
 	Run with gzdoom.exe -file brutalv21.pk3 -file LATEST_VERSION_FILE_NAME -iwad WADS_NAME_YOU_WANT_TO_USE.wad
 	
 OR use ZDL: https://github.com/lcferrum/qzdl/releases to config all your Doom needs. (Highly recommended.)
