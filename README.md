@@ -1,19 +1,21 @@
 # br_vr
-Brutal Doom VR Weapons for Brutal Doom v21 Gold and OpenVRDoom WIP
+Brutal Doom VR Weapons for Brutal Doom v21 Gold and GZDoom-VR
 
-OpenVRDoom:
-https://github.com/Fishbiter/gz3doom
+GZDoom-VR:
+https://github.com/hh79/gz3doom/releases
 
 Brutal Doom:
 https://www.moddb.com/mods/brutal-doom
 
 To install:
 
-	Extract OpenVRDoom.
+	Extract GZDoom-VR.
 	Copy Original Doom wads to folder.
 	Extract Brutalv21.zip to folder.
-	Copy PK3 folder from git to folder.
-	Run with gzdoom.exe -file brutalv21.pk3 -file PK3 -iwad WADS_NAME_YOU_WANT_TO_USE.wad
+	Copy download latest version https://github.com/ajantaju/br_vr/releases to folder.
+	Run with gzdoom.exe -file brutalv21.pk3 -file LATEST_VERSION_F*ILE_NAME -iwad WADS_NAME_YOU_WANT_TO_USE.wad
+	
+	OR use ZDL: https://github.com/lcferrum/qzdl/releases to config all your Doom needs. (Highly recommended.)
 
 INI setting:
 
