@@ -1,0 +1,21 @@
+Model AssaultShotgun	
+{ 
+   Path "Models/Weapons/Hud/AssaultShotgun"
+   Model 0 "AssaultShotgun.md3"
+   Skin 0 "AssaultShotgun.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+//Ready
+
+//Aim and Fire
+
+//Reload
+
+//Sprint
+
+//Zoom
+
+}

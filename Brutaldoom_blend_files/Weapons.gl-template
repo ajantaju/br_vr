@@ -1,0 +1,14 @@
+material texture "Models/Weapons/Hud/REPLACE/REPLACE.png" { 
+    
+    normal "materials/REPLACE/REPLACE_n.png"
+    metallic "materials/REPLACE/REPLACE_m.png"
+	roughness "materials/REPLACE/REPLACE_r.png"
+	ao "materials/REPLACE/REPLACE_ao.png"
+//	brightmap "materials/REPLACE/REPLACE_bm.png"
+}
+
+Also remember: RGB = occlusion/roughness/metallic
+Metal=white
+
+wood= 350E00
+metal=181818

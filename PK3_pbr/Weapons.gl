@@ -1,0 +1,224 @@
+material texture "Models/Weapons/Hud/Rifle/rifle.png" { 
+    
+    normal "materials/rifle/rifle_n.png"
+    metallic "materials/rifle/rifle_m.png"
+	roughness "materials/rifle/rifle_r.png"
+	ao "materials/rifle/rifle_ao2.png"   
+//	brightmap "materials/rifle/rifle_bm.png"
+}
+
+material texture "Models/Weapons/Hud/brutalpistol/brutalpistol.png" { 
+    
+    normal "materials/brutalpistol/brutalpistol_n.png"
+    metallic "materials/brutalpistol/brutalpistol_m.png"
+	roughness "materials/brutalpistol/brutalpistol_r.png"
+	ao "materials/brutalpistol/brutalpistol_ao.png"
+	brightmap "materials/brutalpistol/brutalpistol_bm.png"
+}
+
+material texture "Models/Weapons/Hud/shotgun/shotgun.png" { 
+    
+    normal "materials/shotgun/shotgun_n.png"
+    metallic "materials/shotgun/shotgun_m.png"
+	roughness "materials/shotgun/shotgun_r.png"
+	ao "materials/shotgun/shotgun_ao.png"
+	brightmap "materials/shotgun/shotgun_bm.png"
+}
+
+material texture "Models/Weapons/Hud/ssg/ssg.png" { 
+    
+    normal "materials/ssg/ssg_n.png"
+    metallic "materials/ssg/ssg_m.png"
+	roughness "materials/ssg/ssg_r.png"
+	ao "materials/ssg/ssg_ao.png"
+//	brightmap "materials/ssg/ssg_bm.png"
+}
+
+material texture "Models/Weapons/Hud/rpg/rpg.png" { 
+    
+    normal "materials/rpg/rpg_n.png"
+    metallic "materials/rpg/rpg_m.png"
+	roughness "materials/rpg/rpg_r.png"
+	ao "materials/rpg/rpg_ao.png"
+//	brightmap "materials/rpg/rpg_bm.png"
+}
+
+material texture "Models/Weapons/Hud/minigun/minigun.png" { 
+    
+    normal "materials/minigun/minigun_n.png"
+    metallic "materials/minigun/minigun_m.png"
+	roughness "materials/minigun/minigun_r.png"
+	ao "materials/minigun/minigun_ao.png"
+//	brightmap "materials/minigun/minigun_bm.png"
+}
+
+material texture "Models/Weapons/Hud/plasma_gun/plasma.png" { 
+    
+    normal "materials/plasma/plasma_n.png"
+    metallic "materials/plasma/plasma_m.png"
+	roughness "materials/plasma/plasma_r.png"
+	ao "materials/plasma/plasma_ao.png"
+//	brightmap "materials/plasma/plasma_bm.png"
+}
+
+material texture "Models/Weapons/Hud/bfg/bfg.png" { 
+    
+    normal "materials/bfg/bfg_n.png"
+    metallic "materials/bfg/bfg_m.png"
+	roughness "materials/bfg/bfg_r.png"
+	ao "materials/bfg/bfg_ao.png"
+//	brightmap "materials/bfg/bfg_bm.png"
+}
+
+material texture "Models/Weapons/Hud/bfg/bfg2.png" { 
+    
+    normal "materials/bfg/bfg_n.png"
+    metallic "materials/bfg/bfg_m.png"
+	roughness "materials/bfg/bfg_r.png"
+	ao "materials/bfg/bfg_ao.png"
+	brightmap "materials/bfg/bfg2_bm.png"
+}
+
+material texture "Models/Weapons/Hud/bfg/bfg_10k.png" { 
+    
+    normal "materials/bfg/bfg_n.png"
+    metallic "materials/bfg/bfg_m.png"
+	roughness "materials/bfg/bfg_r.png"
+	ao "materials/bfg/bfg_ao.png"
+//	brightmap "materials/bfg/bfg_bm.png"
+}
+
+material texture "Models/Weapons/Hud/bfg/bfg_10k2.png" { 
+    
+    normal "materials/bfg/bfg_n.png"
+    metallic "materials/bfg/bfg_m.png"
+	roughness "materials/bfg/bfg_r.png"
+	ao "materials/bfg/bfg_ao.png"
+	brightmap "materials/bfg/bfg2_bm.png"
+}
+
+material texture "Models/Weapons/Hud/brutalSMG/brutalSMG.png" { 
+    
+    normal "materials/brutalSMG/brutalSMG_n2.png"
+    metallic "materials/brutalSMG/brutalSMG_m.png"
+	roughness "materials/brutalSMG/brutalSMG_r.png"
+	ao "materials/brutalSMG/brutalSMG_ao.png"
+//	brightmap "materials/brutalSMG/brutalSMG_bm.png"
+}
+
+material texture "Models/Weapons/Hud/AssaultShotgun/AssaultShotgun.png" { 
+    
+    normal "materials/AssaultShotgun/AssaultShotgun_n.png"
+    metallic "materials/AssaultShotgun/AssaultShotgun_m.png"
+	roughness "materials/AssaultShotgun/AssaultShotgun_r.png"
+	ao "materials/AssaultShotgun/AssaultShotgun_ao.png"
+	brightmap "materials/AssaultShotgun/AssaultShotgun_bm.png"
+}
+
+material texture "Models/Weapons/Hud/fist/fist.png" { 
+    
+    normal "materials/fist/fist_n.png"
+    metallic "materials/fist/fist_m.png"
+	roughness "materials/fist/fist_r.png"
+	ao "materials/fist/fist_ao.png"
+//	brightmap "materials/fist/fist_bm.png"
+}
+
+material texture "Models/Weapons/Hud/boot/boot.png" { 
+    
+    normal "materials/boot/boot_n.png"
+    metallic "materials/boot/boot_m.png"
+	roughness "materials/boot/boot_r.png"
+	ao "materials/boot/boot_ao.png"
+//	brightmap "materials/boot/boot_bm.png"
+}
+
+material texture "Models/Weapons/Hud/brutalaxe/brutalaxe.png" { 
+    
+    normal "materials/brutalaxe/brutalaxe_n.png"
+    metallic "materials/brutalaxe/brutalaxe_m.png"
+	roughness "materials/brutalaxe/brutalaxe_r.png"
+	ao "materials/brutalaxe/brutalaxe_ao.png"
+//	brightmap "materials/brutalaxe/brutalaxe_bm.png"
+}
+
+material texture "Models/Weapons/Hud/brutalaxe/brutalaxeB.png" { 
+    
+    normal "materials/brutalaxe/brutalaxe_n.png"
+    metallic "materials/brutalaxe/brutalaxe_m.png"
+	roughness "materials/brutalaxe/brutalaxe_r.png"
+	ao "materials/brutalaxe/brutalaxe_ao.png"
+//	brightmap "materials/brutalaxe/brutalaxe_bm.png"
+}
+
+material texture "Models/Weapons/Hud/brutalaxe/brutalaxeG.png" { 
+    
+    normal "materials/brutalaxe/brutalaxe_n.png"
+    metallic "materials/brutalaxe/brutalaxe_m.png"
+	roughness "materials/brutalaxe/brutalaxe_r.png"
+	ao "materials/brutalaxe/brutalaxe_ao.png"
+//	brightmap "materials/brutalaxe/brutalaxe_bm.png"
+}
+
+material texture "Models/Weapons/Hud/brutalaxe/brutalaxeR.png" { 
+    
+    normal "materials/brutalaxe/brutalaxe_n.png"
+    metallic "materials/brutalaxe/brutalaxe_m.png"
+	roughness "materials/brutalaxe/brutalaxe_r.png"
+	ao "materials/brutalaxe/brutalaxe_ao.png"
+//	brightmap "materials/brutalaxe/brutalaxe_bm.png"
+}
+
+material texture "Models/Weapons/Hud/chain_saw/chain_saw.png" { 
+    
+    normal "materials/chain_saw/chain_saw_n.png"
+    metallic "materials/chain_saw/chain_saw_m.png"
+	roughness "materials/chain_saw/chain_saw_r.png"
+	ao "materials/chain_saw/chain_saw_ao.png"
+//	brightmap "materials/chain_saw/chain_saw_bm.png"
+}
+
+material texture "Models/Weapons/Hud/chain_saw/chain_saw_R.png" { 
+    
+    normal "materials/chain_saw/chain_saw_n.png"
+    metallic "materials/chain_saw/chain_saw_m.png"
+	roughness "materials/chain_saw/chain_saw_r.png"
+	ao "materials/chain_saw/chain_saw_ao.png"
+//	brightmap "materials/chain_saw/chain_saw_bm.png"
+}
+
+material texture "Models/Weapons/Hud/chain_saw/chain_saw_G.png" { 
+    
+    normal "materials/chain_saw/chain_saw_n.png"
+    metallic "materials/chain_saw/chain_saw_m.png"
+	roughness "materials/chain_saw/chain_saw_r.png"
+	ao "materials/chain_saw/chain_saw_ao.png"
+//	brightmap "materials/chain_saw/chain_saw_bm.png"
+}
+
+material texture "Models/Weapons/Hud/chain_saw/chain_saw_B.png" { 
+    
+    normal "materials/chain_saw/chain_saw_n.png"
+    metallic "materials/chain_saw/chain_saw_m.png"
+	roughness "materials/chain_saw/chain_saw_r.png"
+	ao "materials/chain_saw/chain_saw_ao.png"
+//	brightmap "materials/chain_saw/chain_saw_bm.png"
+}
+
+material texture "Models/Weapons/Hud/DSweap/DSweap.png" { 
+    
+    normal "materials/DSweap/DSweap_n.png"
+    metallic "materials/DSweap/DSweap_m.png"
+	roughness "materials/DSweap/DSweap_r.png"
+	ao "materials/DSweap/DSweap_ao.png"
+//	brightmap "materials/DSweap/DSweap_bm.png"
+}
+
+material texture "Models/Weapons/Hud/FlameCannon/FlameCannon.png" { 
+    
+    normal "materials/FlameCannon/FlameCannon_n.png"
+    metallic "materials/FlameCannon/FlameCannon_m.png"
+	roughness "materials/FlameCannon/FlameCannon_r.png"
+	ao "materials/FlameCannon/FlameCannon_ao.png"
+//	brightmap "materials/FlameCannon/FlameCannon_bm.png"
+}

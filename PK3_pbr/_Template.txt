@@ -1,0 +1,20 @@
+Model ID	
+{ 
+   Path "Models/Weapons/Hud/ID"
+   Model 0 "ID.md3"
+   Skin 0 "ID.png"
+   Scale -1.0 1.0 1.0
+   Offset 10.0 0.0 0.0
+   ZOffset -5
+
+//Ready
+
+//Aim and Fire
+
+//Reload
+
+//Sprint
+
+//Zoom
+
+}
