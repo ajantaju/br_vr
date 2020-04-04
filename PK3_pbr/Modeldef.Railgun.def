@@ -65,7 +65,8 @@ Model RailGun
 
 //Zoom
 
-
+	FrameIndex	RAIZ	A	0	3
+	FrameIndex	RAIZ	B	0	36
 	
 
 }

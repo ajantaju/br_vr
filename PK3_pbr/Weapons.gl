@@ -222,3 +222,84 @@ material texture "Models/Weapons/Hud/FlameCannon/FlameCannon.png" {
 	ao "materials/FlameCannon/FlameCannon_ao.png"
 //	brightmap "materials/FlameCannon/FlameCannon_bm.png"
 }
+
+material texture "Models/Weapons/Hud/flamethrower2/flamethrower2.png" { 
+    
+    normal "materials/flamethrower2/flamethrower2_n.png"
+    metallic "materials/flamethrower2/flamethrower2_m.png"
+	roughness "materials/flamethrower2/flamethrower2_r.png"
+	ao "materials/flamethrower2/flamethrower2_ao.png"
+	brightmap "materials/flamethrower2/flamethrower2_bm.png"
+}
+
+material texture "Models/Weapons/Hud/grenade/nade.png" { 
+    
+    normal "materials/grenade/nade_n.png"
+    metallic "materials/grenade/nade_m.png"
+	roughness "materials/grenade/nade_r.png"
+	ao "materials/nade/grenade_ao.png"
+//	brightmap "materials/grenade/nade_bm.png"
+}
+
+material texture "Models/Weapons/Hud/hellishmissile/hellishmissile.png" { 
+    
+    normal "materials/hellishmissile/hellishmissile_n.png"
+    metallic "materials/hellishmissile/hellishmissile_m.png"
+	roughness "materials/hellishmissile/hellishmissile_r.png"
+	ao "materials/hellishmissile/hellishmissile_ao.png"
+//	brightmap "materials/hellishmissile/hellishmissile_bm.png"
+}
+
+material texture "Models/Weapons/Hud/hitlersbuzzsaw/hitlersbuzzsaw.png" { 
+    
+    normal "materials/hitlersbuzzsaw/hitlersbuzzsaw_n.png"
+    metallic "materials/hitlersbuzzsaw/hitlersbuzzsaw_m.png"
+	roughness "materials/hitlersbuzzsaw/hitlersbuzzsaw_r.png"
+	ao "materials/hitlersbuzzsaw/hitlersbuzzsaw_ao.png"
+//	brightmap "materials/hitlersbuzzsaw/hitlersbuzzsaw_bm.png"
+}
+
+material texture "Models/Weapons/Hud/M79/M79.png" { 
+    
+    normal "materials/M79/M79_n.png"
+    metallic "materials/M79/M79_m.png"
+	roughness "materials/M79/M79_r.png"
+	ao "materials/M79/M79_ao.png"
+//	brightmap "materials/M79/M79_bm.png"
+}
+
+material texture "Models/Weapons/Hud/Machinegun/Machinegun.png" { 
+    
+    normal "materials/Machinegun/Machinegun_n.png"
+    metallic "materials/Machinegun/Machinegun_m.png"
+	roughness "materials/Machinegun/Machinegun_r.png"
+	ao "materials/Machinegun/Machinegun_ao.png"
+//	brightmap "materials/Machinegun/Machinegun_bm.png"
+}
+
+material texture "Models/Weapons/Hud/RailGun/RailGun.png" { 
+    
+    normal "materials/RailGun/RailGun_n.png"
+    metallic "materials/RailGun/RailGun_m.png"
+	roughness "materials/RailGun/RailGun_r.png"
+	ao "materials/RailGun/RailGun_ao.png"
+	brightmap "materials/RailGun/RailGun_bm.png"
+}
+
+material texture "Models/Weapons/Hud/Revolver/Revolver.png" { 
+    
+    normal "materials/Revolver/Revolver_n.png"
+    metallic "materials/Revolver/Revolver_m.png"
+	roughness "materials/Revolver/Revolver_r.png"
+	ao "materials/Revolver/Revolver_ao.png"
+	brightmap "materials/Revolver/Revolver_bm.png"
+}
+
+material texture "Models/Weapons/Hud/unmaker/unmaker.png" { 
+    
+    normal "materials/unmaker/unmaker_n.png"
+    metallic "materials/unmaker/unmaker_m.png"
+	roughness "materials/unmaker/unmaker_r.png"
+	ao "materials/unmaker/unmaker_ao.png"
+//	brightmap "materials/unmaker/unmaker_bm.png"
+}
