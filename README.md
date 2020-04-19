@@ -29,8 +29,11 @@ https://github.com/Xabis/blender-md3
 
 
 For Original Doom:
+
 OpenVR version has PBR materials (dynamic light support). Quest version has flat textures.
+
 Doom OpenVR: https://github.com/hh79/gz3doom/files/4378108/HDVRweapons.zip
+
 Doom Quest: https://github.com/ajantaju/br_vr/releases/download/B35/HDweapons-Remake-Quest.zip
 
 Also PBR for BrutalDoom64: https://github.com/ajantaju/br_vr/releases/download/B35/DooM64_BR_WIP.zip
