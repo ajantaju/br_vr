@@ -3,7 +3,7 @@ material texture "Models/Weapons/Hud/Rifle/rifle.png" {
     normal "materials/rifle/rifle_n.png"
     metallic "materials/rifle/rifle_m.png"
 	roughness "materials/rifle/rifle_r.png"
-	ao "materials/rifle/rifle_ao2.png"   
+	ao "materials/rifle/rifle_ao.png"   
 //	brightmap "materials/rifle/rifle_bm.png"
 }
 
@@ -99,7 +99,7 @@ material texture "Models/Weapons/Hud/bfg/bfg_10k2.png" {
 
 material texture "Models/Weapons/Hud/brutalSMG/brutalSMG.png" { 
     
-    normal "materials/brutalSMG/brutalSMG_n2.png"
+    normal "materials/brutalSMG/brutalSMG_n.png"
     metallic "materials/brutalSMG/brutalSMG_m.png"
 	roughness "materials/brutalSMG/brutalSMG_r.png"
 	ao "materials/brutalSMG/brutalSMG_ao.png"

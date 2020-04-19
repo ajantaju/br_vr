@@ -12,3 +12,9 @@ Metal=white
 
 wood= 350E00
 metal=181818
+
+Texture flattening:
+Normal maps, black and white inverse, overlay
+Metalness, muliply
+Roughness, multiply
+AO, Overlay

@@ -170,3 +170,32 @@ Model GrenadeLauncher
 	FrameIndex	STOM	E	0	57
 	
 }
+
+Model GrenadeLauncher
+{ 
+   Path "Models/Weapons/Hud/FIST"
+   Model 0 "fistclosed.md3"
+   Skin 0 "fist.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+   
+   //Rude
+
+FrameIndex	FUCK	A	0	61
+FrameIndex	FUCK	B	0	62
+FrameIndex	FUCK	C	0	63
+FrameIndex	FUCK	D	0	64
+FrameIndex	FUCK	E	0	64
+FrameIndex	FUCK	F	0	66
+FrameIndex	FUCK	G	0	67
+FrameIndex	FUCK	H	0	68
+FrameIndex	FUCK	I	0	69
+FrameIndex	FUCK	J	0	69
+FrameIndex	FUCK	K	0	71
+FrameIndex	FUCK	L	0	72
+FrameIndex	FUCK	M	0	73
+FrameIndex	FUCK	N	0	74
+FrameIndex	FUCK	O	0	74
+
+}

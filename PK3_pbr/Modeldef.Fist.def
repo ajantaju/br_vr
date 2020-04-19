@@ -6,6 +6,7 @@ Model Melee_Attacks
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
    ZOffset -5
+	NoInterpolation
 
 FrameIndex	PONG	A	0	0
 FrameIndex	PONG	B	0	1

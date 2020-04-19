@@ -28,8 +28,8 @@ FrameIndex	SAWS	H	0	12
 
 //Aim and Fire
 
-FrameIndex	SAWG	A	0	13
-FrameIndex	SAWG	B	0	14
+FrameIndex	SAWG	A	0	15
+FrameIndex	SAWG	B	0	16
 
 FrameIndex	CSA1	A	0	27
 FrameIndex	CSA1	B	0	28
@@ -48,6 +48,14 @@ FrameIndex	CSA1	N	0	40
 FrameIndex	CSA1	O	0	41
 FrameIndex	CSA1	P	0	42
 FrameIndex	CSA1	Q	0	43
+
+//VR Modded
+
+FrameIndex	VSAW	C	0	13
+FrameIndex	VSAW	D	0	14
+
+
+
 
 //AltFire
 
@@ -119,6 +127,10 @@ FrameIndex	CSR1	O	0	41
 FrameIndex	CSR1	P	0	42
 FrameIndex	CSR1	Q	0	43
 
+//VR Modded
+
+FrameIndex	VSRW	C	0	13
+FrameIndex	VSRW	D	0	14
 
 
 //Red AltFire
@@ -167,12 +179,12 @@ FrameIndex	CSR1	T	1	10
 FrameIndex	CSR1	U	1	11
 
 FrameIndex	CSR2	J	0	53
-FrameIndex	CSR2	K	0	54
-FrameIndex	CSR2	L	0	55
+FrameIndex	CSR2	K	0	53
+FrameIndex	CSR2	L	0	54
 
 FrameIndex	CSR2	J	1	0
 FrameIndex	CSR2	K	1	1
-FrameIndex	CSR2	L	1	3
+FrameIndex	CSR2	L	1	2
 
 }
 
@@ -222,6 +234,11 @@ FrameIndex	CSG1	O	0	41
 FrameIndex	CSG1	P	0	42
 FrameIndex	CSG1	Q	0	43
 
+//VR Modded
+
+FrameIndex	VSGW	C	0	13
+FrameIndex	VSGW	D	0	14
+
 
 //Green AltFire
 
@@ -268,12 +285,12 @@ FrameIndex	CSG1	T	1	10
 FrameIndex	CSG1	U	1	11
 
 FrameIndex	CSG2	J	0	53
-FrameIndex	CSG2	K	0	54
-FrameIndex	CSG2	L	0	55
+FrameIndex	CSG2	K	0	53
+FrameIndex	CSG2	L	0	54
 
 FrameIndex	CSG2	J	1	0
 FrameIndex	CSG2	K	1	1
-FrameIndex	CSG2	L	1	3
+FrameIndex	CSG2	L	1	2
 
 }
 
@@ -368,12 +385,12 @@ FrameIndex	CSB1	T	1	10
 FrameIndex	CSB1	U	1	11
 
 FrameIndex	CSB2	J	0	53
-FrameIndex	CSB2	K	0	54
-FrameIndex	CSB2	L	0	55
+FrameIndex	CSB2	K	0	53
+FrameIndex	CSB2	L	0	54
 
 FrameIndex	CSB2	J	1	0
 FrameIndex	CSB2	K	1	1
-FrameIndex	CSB2	L	1	3
+FrameIndex	CSB2	L	1	2
 
 }
 Model Chain_saw	
@@ -383,7 +400,7 @@ Model Chain_saw
    Skin 0 "nade.png"
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
-   NoInterpolation
+   NOINTERPOLATION
    ZOffset -5
 
 
@@ -414,7 +431,7 @@ Model Chain_saw
    Skin 0 "Boot.png"
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
-   NoInterpolation
+   NOINTERPOLATION
    ZOffset -5
 
 
