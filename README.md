@@ -37,3 +37,5 @@ Doom OpenVR: https://github.com/hh79/gz3doom/files/4378108/HDVRweapons.zip
 Doom Quest: https://github.com/ajantaju/br_vr/releases/download/B35/HDweapons-Remake-Quest.zip
 
 Also PBR for BrutalDoom64: https://github.com/ajantaju/br_vr/releases/download/B35/DooM64_BR_WIP.zip
+
+And BrutalDoom64 for Quest: https://github.com/ajantaju/br_vr/releases/download/B35/BR_VR_BD64_Quest.zip
