@@ -150,6 +150,7 @@ Model Flamethrower2
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
    ZOffset -5
+   NoInterpolation
    
    //Rude
 
@@ -169,4 +170,63 @@ FrameIndex	FUCK	M	0	73
 FrameIndex	FUCK	N	0	74
 FrameIndex	FUCK	O	0	74
 
+FrameIndex	FVCK	A	0	60
+FrameIndex	FVCK	B	0	61
+FrameIndex	FVCK	C	0	62
+FrameIndex	FVCK	D	0	63
+FrameIndex	FVCK	E	0	64
+
+}
+
+
+Model Flamethrower2	
+{ 
+   Path "Models/Weapons/Hud/FIST"
+   Model 0 "fistclosed.md3"
+   Skin 0 "fist.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+	NoInterpolation
+
+FrameIndex	PUN3	A	0	14
+FrameIndex	PUN3	B	0	15
+FrameIndex	PUN3	C	0	16
+FrameIndex	PUN3	D	0	17
+FrameIndex	PUN3	E	0	18
+FrameIndex	PUN3	F	0	19
+FrameIndex	PUN3	G	0	20
+FrameIndex	PUN3	H	0	21
+
+}
+
+Model Flamethrower2	
+{ 
+   Path "Models/Weapons/Hud/Grenade"
+   Model 0 "nade.md3"
+   Skin 0 "nade.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   NoInterpolation
+   ZOffset -5
+
+
+	//Aim and Fire
+
+
+	FrameIndex	PRTH	A	0	3
+	FrameIndex	PRTH	B	0	4
+	FrameIndex	PRTH	C	0	5
+	FrameIndex	PRTH	D	0	6
+	FrameIndex	PRTH	E	0	7
+	FrameIndex	PRTH	F	0	8
+	FrameIndex	PRTH	G	0	9
+	
+	FrameIndex	PRTH	H	0	10
+	FrameIndex	PRTH	I	0	11
+	FrameIndex	PRTH	J	0	12
+	FrameIndex	PRTH	K	0	13
+	FrameIndex	PRTH	L	0	14
+	FrameIndex	PRTH	M	0	15
+	
 }

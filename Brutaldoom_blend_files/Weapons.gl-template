@@ -15,6 +15,7 @@ metal=181818
 
 Texture flattening:
 Normal maps, black and white inverse, overlay
-Metalness, muliply
+Metalness, multiply (in most times not used)
 Roughness, multiply
 AO, Overlay
+Base texture, normal
