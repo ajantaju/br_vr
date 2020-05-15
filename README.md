@@ -41,3 +41,9 @@ More versions:
 BrutalDoom64 for OpenVR: https://github.com/ajantaju/br_vr/releases/download/B35/DooM64_BR_WIP.zip
 
 BrutalDoom64 for Quest: https://github.com/ajantaju/br_vr/releases/download/B35/BR_VR_BD64_Quest.zip
+
+These don't have PBR textures:
+
+Doom64 Retribution: https://github.com/ajantaju/br_vr/blob/master/D64Retribution.zip
+
+HacX 2.0 (+ Doom and Heretic) https://github.com/ajantaju/br_vr/blob/master/HacX.zip
