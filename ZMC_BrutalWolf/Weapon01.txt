@@ -1,0 +1,40 @@
+ACTOR TEMPLATE: Shotgun Replaces Shotgun
+  {
+     Weapon.SelectionOrder 350
+     Inventory.PickupSound "misc/TEMPickup"
+     Weapon.AmmoGive 12
+     Weapon.AmmoUse 4
+     Weapon.SlotNumber 3
+	 Scale 0.2 				//Scale is 0.2 because the RTEMA0.png is higher resolution than original sprites.
+     AttackSound "weapons/ubersgf" 
+     States
+     
+	 {
+     Spawn: // This state is entered when you drop the weapon.
+        RTEM A -1 			//Our rendered pickup sprite.
+        Stop
+     Ready: // This state is entered when you have this weapon selected.
+        TEMP A 1 A_WeaponReady
+        Loop 
+     Deselect: // This state is entered when you deselect the current selected weapon.
+        TEMP A 1 A_Lower
+        Loop 
+     Select: // This state is entered when you select this weapon.
+        TEMP A 1 A_Raise
+        Loop 
+     Fire: // The firing state.
+        TEMP A 3 			//Our Dummy sprites that is replaced with the model in modeldef.
+        TEMP A 0 A_FireBullets (13.4, 9.2, 50, 10, "BulletPuff")
+        TEMP B 7 A_GunFlash // While on fire state it spawns the weapon's flash.
+        TEMP C 7
+        TEMP D 7 A_CheckReload
+        TEMP E 7 A_OpenShotgun2
+        TEMP F 7
+        TEMP G 7 A_LoadShotgun2
+        TEMP H 6
+        TEMP I 6 A_CloseShotgun2
+        TEMP A 5 A_ReFire
+        Goto Ready
+     
+     }
+  }

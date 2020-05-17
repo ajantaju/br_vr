@@ -1,0 +1,633 @@
+
+Actor GuardStealthed:inventory
+{
+Inventory.MaxAmount 1 
+}
+
+Actor BlueGuardStealthed:inventory
+{
+Inventory.MaxAmount 1 
+}
+
+Actor ChangeMelee:inventory
+{
+Inventory.MaxAmount 1 
+}
+
+Actor ChangeMelee1:inventory
+{
+Inventory.MaxAmount 1 
+}
+
+Actor ChangeMelee2:inventory
+{
+Inventory.MaxAmount 1 
+}
+
+
+Actor KnifeAttack_1:FastProjectile
+{
+Radius 3
+Height 3
+DamageType StealthKnife
+Projectile
++FORCEXYBILLBOARD
++NOEXTREMEDEATH
+Renderstyle Add 
+Alpha 0.6
+Damage 3
+Speed 32
+SeeSound "none"
+DeathSound "none"
+Decal "none"
+Tag "Military Knife"
+States
+{
+Spawn:
+TNT1 A 2
+Stop
+
+Death:
+PUFF A 3 A_PlaySound("KNIFHIT")
+PUFF BCD 3
+Stop
+}
+}
+ACTOR Knife_Slot : Weapon
+{
+	Game Doom
+	Weapon.SelectionOrder 3700
+	Weapon.Kickback 100
+	Obituary "%o was hit by %k's Knife"
+        Inventory.PickupMessage "Knife"
+	Weapon.BobRangeX 0.75
+	Weapon.BobRangeY 0.5
+	Weapon.BobSpeed 1.5
+	Weapon.BobStyle "InverseAlpha" //Denis Belmondo's Bobstyle
++NOAUTOFIRE
+Tag "Military Knife"
+	+WEAPON.MELEEWEAPON
+    +WEAPON.NOALERT
++WEAPON.NOAUTOAIM
+Inventory.Icon "KNBACK"
+	States
+	{
+Steady:
+TNT1 A 1
+Goto Ready
+
+	Spawn:
+		ASCI A -1
+		Stop
+
+RealReady:
+        Ready:
+
+        KNIG A 1 A_WeaponReady
+	TNT1 B 0 A_JumpIfInventory("Kicking",1,"DoKick")
+	TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+        TNT1 B 0 A_JumpIfInventory("Taunting",1,"Taunt")
+	TNT1 B 0 A_JumpIfInventory("Salute1", 1, "Salute")
+	TNT1 B 0 A_JumpIfInventory("Salute2", 1, "Salute")
+        GOTO Ready
+
+Select:
+	TNT1 A 0 A_Takeinventory("FistsSelected",1)
+	//TNT1 A 0 A_Takeinventory("SawSelected",1)
+	TNT1 A 0 A_Giveinventory("ShotgunSelected",1)
+	TNT1 A 0 A_Takeinventory("SSGSelected",1)
+	TNT1 A 0 A_Takeinventory("MinigunSelected",1)
+	TNT1 A 0 A_Takeinventory("PlasmaGunSelected",1)
+	TNT1 A 0 A_Takeinventory("RocketLauncherSelected",1)
+    TNT1 A 0 A_Takeinventory("GrenadeLauncherSelected",1)
+	TNT1 A 0 A_Takeinventory("BFGSelected",1)
+	TNT1 A 0 A_Takeinventory("BFG10kSelected",1)
+	TNT1 A 0 A_Takeinventory("RailGunSelected",1)
+	TNT1 A 0 A_Takeinventory("SubMachineGunSelected",1)
+	TNT1 A 0 A_Takeinventory("RevenantLauncherSelected",1)
+	//TNT1 A 0 A_Takeinventory("LostSoulSelected",1)
+	TNT1 A 0 A_Takeinventory("FlameCannonSelected",1)
+	TNT1 A 0 A_Takeinventory("HasBarrel",1)
+		knig a 1 A_Raise
+		Wait
+
+    Deselect:
+	TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_Takeinventory("BWgrenade",1)
+TNT1 A 0 A_Takeinventory("Reloading",1)
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+		KNIG A 1 A_Lower
+		Wait
+
+	Fire:
+		KNIF ABCDE 1
+        KNIF F 1 A_PlaySound("weapons/wknife")
+		KNIF F 0 A_Custompunch(16,0,1,"KnifePuff")
+                KNIF GHI 1
+		GOTO READY
+
+
+	
+	    DoKick:
+	    TNT1 A 0
+		TNT1 A 0 A_Takeinventory("Zoomed",1)
+        TNT1 A 0 A_ZoomFactor(1.0)
+		TNT1 A 0 A_Takeinventory("ADSmode",1)
+		
+		TNT1 A 0 A_PlaySound("KICK")
+		TNT1 A 0 SetPlayerProperty(0,1,0)
+		KICK BCD 1
+		//TNT1 A 0 A_Custompunch(4,0,1,"KickPuff")
+		RIFF A 0 A_FireCustomMissile("KickAttack", 0, 0, 0, -7)
+        KICK H 4
+		KICK A 0 A_Takeinventory("Kicking",1)
+		KICK IGFEDCBA 1
+		TNT1 A 0 A_JumpIfInventory("GoFatality", 1, "Steady")
+		TNT1 A 0 SetPlayerProperty(0,0,0)
+		Goto Ready+6
+	
+	
+
+    Taunt:
+		TNT1 A 0 A_Takeinventory("Zoomed",1)
+        TNT1 A 0 A_ZoomFactor(1.0)
+        TNT1 A 5
+		FUCK A 2
+        FUCK B 2 A_PlaySound("FUCK", 1)
+        FUCK C 2 A_AlertMonsters
+		FUCK D 15 A_Takeinventory("Taunting",1)
+        FUCK CBA 5
+        TNT1 A 5
+		Goto Ready+3
+	Salute:
+	    TNT1 A 0 SetPlayerProperty(0,1,0)
+		TNT1 A 0 A_ALertMonsters
+		SALU ABCDEDCDEDCDEDCBA 4
+		TNT1 A 0 A_TakeInventory("Salute1",1)
+		TNT1 A 0 A_TakeInventory("Salute2",1)
+		TNT1 A 0 SetPlayerProperty(0,0,0)
+		Goto Ready+3
+
+NewMelee:
+TNT1 A 0 A_JumpIfInventory("Axe2",1,3)
+Goto NoAxeIn
+TNT1 AAA 0
+TNT1 A 0 A_JumpIfinventory("ChangeMelee1",1,"NewMelee2")
+TNT1 A 0 A_JumpIfInventory("ChangeMelee2",1,"NewMelee3")
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_GiveInventory("ChangeMelee1",1)
+TNT1 A 0 A_Print("Quick Axe attack selected!")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto RealReady
+
+NewMelee2:
+TNT1 AAA 0
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee1",1)
+TNT1 A 0 A_GiveInventory("ChangeMelee2",1)
+TNT1 A 0 A_Print("Quick Axe throw selected!")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto RealReady
+
+NoAxeIn:
+TNT1 A 0 A_Print("You need a light axe for alterning melee attacks.You can only use the Knife for now.")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee1",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee2",1)
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto RealReady
+
+NewMelee3:
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee2",1)
+TNT1 A 0 A_Print("Quick knife attack selected!")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto RealReady
+
+LaunchGrenade:	
+TNT1 A 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_TakeInventory("LaunchGrenade", 1)
+TNT1 A 0 A_JumpIfInventory("GrenadeAmmo", 1, 1)
+Goto NoGrenade
+NGRA ABCD 2
+TNT1 A 0 A_playSound("Pick/granate")
+NGRA DD 2
+NGRA DEFG 2
+TNT1 A 0 A_PLaySound ("Launch/granate")
+TNT1 A 0 A_FireCustomMissile("HandGrenade2", random(-3,3), 1, 0, 0, 0, 0)
+GRWF STUVW 2 
+TNT1 A 0 A_TakeInventory("GrenadeAmmo", 1)
+TNT1 A 1 
+TNT1 A 0 A_TakeInventory("LaunchGrenade", 1)
+TNT1 A 0 A_Takeinventory("BWgrenade",1)
+Goto Ready
+
+NoGrenade:
+TNT1 A 0
+TNT1 A 0 A_Print("No Grenades Left!")
+TNT1 A 0 A_Takeinventory("BWgrenade",1)
+Goto Ready
+  }
+}
+
+///
+
+
+Actor Punching : Inventory
+{
+inventory.maxamount 1
+}
+
+Actor Berserker : Inventory
+{
+inventory.maxamount 1
+}
+
+Actor NoFatality : Inventory
+{
+inventory.maxamount 1
+}
+
+// --------------------------------------------------------------------------
+//
+// Melee Weapons
+//
+// --------------------------------------------------------------------------
+
+
+ACTOR Melee_Attacks : Fist Replaces Fist
+{
+	Game Doom
+	Weapon.SelectionOrder 3700
+	Weapon.Kickback 100
+	Obituary "%o was Ripped and Teared by 	%k"
+	+WEAPON.WIMPY_WEAPON
+	+WEAPON.MELEEWEAPON
+    +WEAPON.NOALERT
+    +WEAPON.NOAUTOAIM
+	+WEAPON.NOAUTOFIRE
+	States
+	{
+	
+	Reload:
+	    PUNS BCD 1 
+		PUNS E 7 A_PlaySound("Knuckled")
+		PUNS FE 7
+		PUNS DCB 1 A_TakeInventory("Reloading", 1)
+		Goto Ready+8
+			
+	Ready:
+	PUNS ABCDCBA 1 A_WeapONrEADY
+        TNT1 AAA 0
+		RealReady:
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+        PUNG A 1 A_WeaponReady
+		Loop
+		
+		
+    Deselect:
+		TNT1 A 0 A_Lower
+		Wait
+
+	Select:        ////////////////// Check if player is performing a fatality\\\\
+		TNT1 A 0
+		TNT1 A 0 A_jumpifinventory("LostSoulFatality",1,"ReadySoul")
+        ////////////////////
+		TNT1 A 0 A_Raise
+		Wait
+	Fire:
+        TNT1 A 0
+		PUNF ABCD 1
+        TNT1 A 0 A_PlaySound("skeleton/swing")
+		TNT1 A 0 A_Giveinventory("Punching",1)
+		PUNG F 0 A_FireCustomMissile("PunchAttack", 0, 0, 0, 0)
+		PUNF C 1
+		PUNF BA 1 A_WeaponReady(1)
+        TNT1 A 0
+		Goto RealReady
+		
+    AltFire:
+		PUNF E 1
+        TNT1 A 0 A_PlaySound("skeleton/swing")
+		PUNF FG 1
+		TNT1 A 0 A_Giveinventory("Punching",1)
+		PUN2 F 0 A_FireCustomMissile("PunchAttack2", 0, 0, 0, 0)
+		PUNF HI 1
+		PUNF HGFE 2
+		Goto Ready+8
+		
+		DoKick:
+TNT1 A 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_PlaySound("KICK")
+TNT1 A 0 SetPlayerProperty(0,1,0)
+KICK BCD 1
+RIFF A 0 A_FireCustomMissile("KickAttack", 0, 0, 0, -7)
+KICK H 4
+KICK A 0 A_Takeinventory("Kicking",1)
+KICK IGFEDCBA 1
+TNT1 A 0 SetPlayerProperty(0,0,0)
+Goto RealReady
+
+Taunt:
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 5
+FUCK A 2
+TNT1 A 0 BRIGHT A_FireCustomMissile("Taunter", 0, 0, -1, 0)
+TNT1 A 0 BRIGHT A_FireCustomMissile("Taunter", -9, 0, -1, 0)
+TNT1 A 0 BRIGHT A_FireCustomMissile("Taunter", 9, 0, -1, 0)
+FUCK B 2 A_PlaySound("FUCK", 1)
+FUCK C 2 A_AlertMonsters
+FUCK D 15 A_Takeinventory("Taunting",1)
+FUCK CBA 5
+TNT1 A 5
+Goto RealReady
+
+LaunchGrenade:	
+TNT1 A 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_TakeInventory("LaunchGrenade", 1)
+TNT1 A 0 A_JumpIfInventory("GrenadeAmmo", 1, 1)
+Goto NoGrenade
+NGRA ABCD 2
+TNT1 A 0 A_playSound("Pick/granate")
+NGRA DD 2
+TNT1 A 0 A_Jump(90,2)
+TNT1 A 0 A_PlaySound("*grenadecall", CHAN_VOICE)
+NGRA DEFG 2
+TNT1 A 0 A_PLaySound ("Launch/granate")
+TNT1 A 0 A_FireCustomMissile("HandGrenade2", random(-3,3), 1, 0, 0, 0, 0)
+GRWF STUVW 2 
+TNT1 A 0 A_TakeInventory("GrenadeAmmo", 1)
+TNT1 A 1 
+TNT1 A 0 A_TakeInventory("LaunchGrenade", 1)
+TNT1 A 0 A_Takeinventory("BWgrenade",1)
+Goto RealReady
+
+NoGrenade:
+TNT1 A 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_Print("No Grenades Left!")
+TNT1 A 0 A_Takeinventory("BWgrenade",1)
+Goto RealReady
+
+
+
+NewMelee:
+TNT1 A 0 A_JumpIfInventory("Axe2",1,3)
+Goto NoAxeIn
+TNT1 AAA 0
+TNT1 A 0 A_JumpIfinventory("ChangeMelee1",1,"NewMelee2")
+TNT1 A 0 A_JumpIfInventory("ChangeMelee2",1,"NewMelee3")
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_GiveInventory("ChangeMelee1",1)
+TNT1 A 0 A_Print("Quick Axe attack selected!")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto RealReady
+
+NewMelee2:
+TNT1 AAA 0
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee1",1)
+TNT1 A 0 A_GiveInventory("ChangeMelee2",1)
+TNT1 A 0 A_Print("Quick Axe throw selected!")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto RealReady
+
+NoAxeIn:
+TNT1 A 0 A_Print("You need a light axe for alterning melee attacks.You can only use the Knife for now.")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee1",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee2",1)
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto RealReady
+
+NewMelee3:
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee2",1)
+TNT1 A 0 A_Print("Quick knife attack selected!")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto RealReady
+
+KnifeAttack:
+TNT1 A 0 A_JumpIfinventory("ChangeMelee1",1,"AxeAttackState")
+TNT1 A 0 A_JumpIfInventory("ChangeMelee2",1,"AxeThrowState")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_Jump(90,2)
+TNT1 A 0 A_PlaySound("*taunt", CHAN_VOICE)
+KNIF ABCDE 1
+KNIF F 1 A_PlaySound("weapons/wknife")
+KNIF F 0 A_Custompunch(16,0,1,"KnifePuff")
+KNIF GHI 1 
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+GOTO RealREADY
+
+AxeAttackState:
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+1RAG ABCD 1
+1RAG DCBA 1 
+1RAG EFG 1 
+TNT1 A 0 A_PlaySound("weapons/AxeFist")
+tnt1 a 0 A_firecustommissile("AxeAttack2",0,0,0,0)
+1RAG HIJKLM 1
+TNT1 A 2
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+Goto RealReady
+
+AxeThrowState:
+tnt1 a 0 a_jumpifInventory("AxeAmmo",2,3)
+Goto LastThrowState
+TNT1 AAA 0
+TNT1 A 0 A_JumpIfInventory("AxeAmmo",1,3)
+Goto NoAmmoForAxe
+TNT1 AAA 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+1RAT ABCDEF 1 
+1RAT F 1
+TNT1 A 0 A_RefirE
+TNT1 AAA 0
+1RAT EDCBA 1 
+1RAG AB 1
+TNT1 A 0 A_TakeInventory("AxeAmmo",1)
+TNT1 A 0 A_PLaySound("AxeSwing")
+tnt1 a 0 A_firecustommissile("thrownAxe",0,0,0,0)
+GRWF STUVW 2 
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+Goto RealReady
+
+LastThrowState:
+TNT1 A 0 A_JumpIfInventory("AxeAmmo",1,3)
+Goto NoAmmoForAxe
+TNT1 AAA 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+1RAT ABCDEF 1 
+1RAT F 1
+TNT1 A 0 A_RefirE
+TNT1 AAA 0
+1RAT EDCBA 1 
+1RAG AB 1
+TNT1 A 0 A_TakeInventory("AxeAmmo",1)
+TNT1 A 0 A_TakeInventory("Axe2",1)
+TNT1 A 0 A_PLaySound("AxeSwing")
+tnt1 a 0 A_firecustommissile("thrownAxe",0,0,0,0)
+GRWF STUVW 2 
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+Goto RealReady
+
+NoAmmoForAxe:
+TNT1 A 0
+TNT1 A 0 A_Print("No axes Left! Back to use the knife.")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_Takeinventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee1",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee2",1)
+TNT1 A 0 A_Takeinventory("MeleeAttack",1)
+Goto RealReady
+
+
+	}
+}
+
+
+ACTOR PoorLostSoul
+{
+	Radius 6
+	Height 8
+	Speed 22
+    Fastspeed 26
+	Damage 15
+	Projectile 
+    Scale 1.0
+	+FORCEXYBILLBOARD
+    DamageType Fire
+ExplosionRadius 70
+ExplosionDamage 50
+	Alpha 1
+	SeeSound "skull/melee"
+	DeathSound "fatso/shotx"
+	States
+	{
+	Spawn:
+        TNT1 A 0 A_CustomMissile ("FlameTrails", 24, 0, 0, 0, 0)
+        LSOL B 2 BRIGHT A_SpawnItem("RedFlare",0,0)
+		Loop
+	Death:
+    
+		LSOL F 2 BRIGHT
+		LSOL G 2 BRIGHT
+		TNT1 A 0 A_Explode
+	EXPL AAAAAAAAAAAAAAAAAAAAAAAA 0 A_CustomMissile ("FlameTrails", 6, 0, random (0, 360), 2, random (0, 360))
+		EXPL A 0 A_SpawnItemEx("ExplosionParticleSpawner", 0, 0, 0, 0, 0, 0, 0, 0)
+    TNT1 AAA 0 A_CustomMissile ("LSpart1", 42, 0, random (0, 360), 2, random (0, 160))
+    TNT1 A 0 A_CustomMissile ("LSpart3", 42, 0, random (0, 360), 2, random (0, 160))
+    TNT1 AAAA 0 A_CustomMissile ("LSpart2", 42, 0, random (0, 360), 2, random (0, 160))
+		TNT1 A 0
+        LSOL HI 6
+		Stop
+		Stop
+	}
+}
+
+
+
+ACTOR PunchAttack: FastProjectile
+{
+Radius 8
+Height 8
+DamageType PunchInTheFace
+Projectile 
++FORCEXYBILLBOARD
++NOEXTREMEDEATH
+RenderStyle Add
+Alpha 0.6
+Damage 30
+Speed 32
+SeeSound "none"
+DeathSound "none"
+Decal "none"
+States
+{
+Spawn:
+TNT1 A 2
+Stop
+Death:
+PUFF A 3 A_PlaySound("player/cyborg/fist")
+PUFF BCD 3
+Stop
+}
+}
+
+ACTOR PunchAttack2: FastProjectile
+{
+Radius 8
+Height 8
+DamageType PunchInTheFace
+Projectile 
++FORCEXYBILLBOARD
++NOEXTREMEDEATH
+RenderStyle Add
+Alpha 0.6
+Damage 40
+Speed 32
+SeeSound "none"
+DeathSound "none"
+Decal "none"
+States
+{
+Spawn:
+TNT1 A 2
+Stop
+Death:
+PUFF A 3 A_PlaySound("player/cyborg/fist")
+PUFF BCD 3
+Stop
+}
+}
+
+

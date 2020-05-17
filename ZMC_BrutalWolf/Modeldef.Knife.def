@@ -1,0 +1,26 @@
+//This needs to be copied to all weapons that can do knife attack!! And rename the Model to be same.
+//(For example: KnifeAttack_1 to 1911)
+
+Model KnifeAttack_1	
+{ 
+   Path "Models/Knife/"
+   Model 0 "Knife.md3"
+   Skin 0 "Knife.png"
+   Scale -1.0 1.0 1.0
+   Offset 20.0 -10.0 -10.0
+   ZOffset -5
+
+FrameIndex	KNIG	A	0	0
+
+FrameIndex	KNIF	A	0	1
+FrameIndex	KNIF	B	0	2
+FrameIndex	KNIF	C	0	3
+FrameIndex	KNIF	D	0	4
+FrameIndex	KNIF	E	0	5
+FrameIndex	KNIF	F	0	6
+FrameIndex	KNIF	G	0	7
+FrameIndex	KNIF	H	0	8
+FrameIndex	KNIF	I	0	9
+FrameIndex	KNIF	J	0	10
+
+}

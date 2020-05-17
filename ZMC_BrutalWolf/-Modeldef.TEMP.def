@@ -1,0 +1,28 @@
+Model TEMPLATE				
+{ 
+   Path "Models/TEMP/"
+   Model 0 "TEMP.md3"
+   Skin 0 "TEMP.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+//FrameIndex	TEMP	A	0	0 //Used as the SpawnSprite
+
+FrameIndex	TEMP	B	0	0
+FrameIndex	TEMP	C	0	1
+FrameIndex	TEMP	D	0	2
+FrameIndex	TEMP	E	0	3
+FrameIndex	TEMP	F	0	4
+FrameIndex	TEMP	G	0	5
+FrameIndex	TEMP	H	0	6
+FrameIndex	TEMP	I	0	7
+FrameIndex	TEMP	J	0	8
+FrameIndex	TEMP	K	0	9
+FrameIndex	TEMP	L	0	10
+FrameIndex	TEMP	M	0	11
+FrameIndex	TEMP	N	0	12
+FrameIndex	TEMP	O	0	13
+FrameIndex	TEMP	P	0	14
+
+}
