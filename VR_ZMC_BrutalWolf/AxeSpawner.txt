@@ -1,0 +1,36 @@
+//EFFICIENTLY REMOVES THE LONG AXE FROM GAME!!
+//GIVES THE THROWING AXE DIRECTLY INSTEAD THE LONG AXE!!
+
+ACTOR _AxeSpawner: CustomInventory Replaces AxeSpawner
+{
+radius 10
+height 64
++THRUACTORS 
++Shootable
++NOBLOOD
+//Health 5
+//+Solid
+DAMAGEFACTOR "Blood", 0.0 DAMAGEFACTOR "BlueBlood", 0.0 DAMAGEFACTOR "GreenBlood", 0.0
+Mass 99999999
+Inventory.PickupMessage "Axe"
+Inventory.PickupSound "AxePickUp"
+states
+{
+
+Spawn:
+TNT1 A 0
+TNT1 A 1
+TNT1 A 0 A_ChangeFlag("THRUACTORS", 0)
+TNT1 A 0
+Stay:
+VAXE L 1
+VAXE L -1
+Stop
+
+Pickup:
+TNT1 A 0
+TNT1 A 0 A_GiveInventory("_Axe2", 1)
+Stop
+
+}
+}

@@ -1,0 +1,56 @@
+Model _HandGrenade2				
+{ 
+   Path "Models/Grenade/"
+   Model 0 "Grenade.md3"
+   Skin 0 "Grenade.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset 0
+   PITCHFROMMOMENTUM
+
+
+FrameIndex	NADE	A	0	0
+
+FrameIndex	NADE	B	0	1
+FrameIndex	NADE	C	0	2
+FrameIndex	NADE	D	0	3
+FrameIndex	NADE	E	0	4
+FrameIndex	NADE	F	0	5
+
+FrameIndex	NADE	G	0	6
+FrameIndex	NADE	H	0	7
+FrameIndex	NADE	I	0	8
+FrameIndex	NADE	J	0	9
+FrameIndex	NADE	K	0	10
+
+FrameIndex	NADE	L	0	11
+
+}
+
+
+
+Model _LandedGrenade
+{ 
+   Path "Models/Grenade/"
+   Model 0 "Grenade.md3"
+   Skin 0 "Grenade.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset 3
+
+FrameIndex	NADE	L	0	11
+
+}
+
+Model GrenadeAmmo
+{ 
+   Path "Models/Grenade/"
+   Model 0 "Grenade.md3"
+   Skin 0 "Grenade.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset 3
+
+FrameIndex	GRND	G	0	11
+
+}

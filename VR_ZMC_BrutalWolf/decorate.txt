@@ -1,7 +1,11 @@
 //#include player.txt //Include if needs a custom player
 
-
+#include ThroAxe.txt
+#include Axe2.txt
+#include AxeSpawner.txt
+#include Grenade.txt
 #include 1911.txt
+
 
 
 
