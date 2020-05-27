@@ -41,6 +41,7 @@ Inventory.PickUpSound "AxePickUp"
 Weapon.SlotNumber 1
 Weapon.AmmoGive 1
 Weapon.AmmoType "AxeAmmo"
+Scale 0.4
 +NoAutoFire
 +Weapon.MeleeWeapon
 +Weapon.NoAlert
@@ -109,7 +110,7 @@ TNT1 A 0 A_TakeInventory("AxeAmmo",1)
 TNT1 A 0 A_PLaySound("AxeSwing")
 tnt1 a 0 A_FireProjectile("_thrownAxe",0,0,0,0,FPF_NOAUTOAIM)
 TNT1 A 5 A_SelectWeapon("Knife_Slot") 
-TNT1 A 0 A_TakeInventory("Axe2")
+TNT1 A 0 A_TakeInventory("_Axe2")
 TNT1 A 5
 Goto Ready
 

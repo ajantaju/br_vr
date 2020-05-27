@@ -5,6 +5,7 @@ ACTOR _AxeSpawner: CustomInventory Replaces AxeSpawner
 {
 radius 10
 height 64
+sCALE 0.4
 +THRUACTORS 
 +Shootable
 +NOBLOOD

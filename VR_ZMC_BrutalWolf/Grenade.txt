@@ -11,7 +11,7 @@ ACTOR _HandGrenade2
 	+MISSILE
 	Speed 30
     Gravity 0.7
-	Scale 1.0
+	Scale 0.5
     -NOGRAVITY
     -BLOODSPLATTER
 	-EXTREMEDEATH
@@ -40,7 +40,7 @@ ACTOR _HandGrenade2
 
 ACTOR _LandedGrenade
 {   Radius 12
-    scale 1.0
+    scale 0.5
     Height 6
     +SHOOTABLE
     -SOLID
@@ -92,7 +92,7 @@ ACTOR _GrenadeAmmo : Ammo //Not used, but included if needed.
    INVENTORY.PICKUPSOUND "Pick/granate"
    Inventory.PickupMessage "Stielhandgranate"
    Inventory.Icon GRNDH0
-   Scale 1.0
+   Scale 0.5
    States
    {
    Spawn:
