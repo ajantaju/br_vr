@@ -1,4 +1,4 @@
-Model _Colt				
+Model Colt				
 { 
    Path "Models/1911/"
    Model 0 "1911.md3"
@@ -28,7 +28,7 @@ FrameIndex	1911	J	0	9
 
 //QuickKnife
 
-Model _Colt				
+Model Colt				
 { 
    Path "Models/Knife/"
    Model 0 "Knife.md3"
@@ -54,7 +54,7 @@ FrameIndex	KNIF	J	0	10
 
 //QuickAXE
 
-Model _Colt	
+Model Colt	
 { 
    Path "Models/Axe/"
    Model 0 "Axe.md3"
@@ -81,7 +81,7 @@ FrameIndex	VAXE	K	0	10
 
 //QuicGrenade
 
-Model _Colt				
+Model Colt				
 { 
    Path "Models/Grenade/"
    Model 0 "Grenade.md3"

@@ -1,7 +1,7 @@
 //This should not be used, but has to be because of the original mod sets them!! https://zdoom.org/wiki/Adding_weaponsections
 
-setslot 1 Melee_Attacks GNOMO _AXE2 
-setslot 2 DoubleLuger LUGER _COLT 
+setslot 1 Melee_Attacks _AXE2 
+setslot 2 DoubleLuger LUGER COLT 
 setslot 3 Thompson PPSH41 MP40Akimbo SecretWeapon_MP40 
 setslot 4 BWBar DoubleSTG44 STG44 
 setslot 5 TRGUN M1GARAND KARABINE98 

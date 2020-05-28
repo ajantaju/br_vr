@@ -4,9 +4,9 @@
 #include Axe2.txt
 #include AxeSpawner.txt
 #include Grenade.txt
-#include 1911.txt
+
+//#include actors/weaps/1911.txt //--Already #included at base mods DECORATE--
+//#include actors/weaps/Luger.txt //--These replace the base mods definitions, as they have the same names and path--
 
 
-
-
-//#include Knife.txt
+//#include Knife.txt //standalone knife, not used right now.
