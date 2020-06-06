@@ -287,7 +287,7 @@ ACTOR DualRifles : BrutalWeapon
 		DURI A 0 A_JumpIfInventory("HasUnloaded", 1, 2)
 		DURI A 0 A_FireCustomMissile("EmptyClipSpawn",185,0,8,-4)
 		R2RR ABCDEFGHIJKLMNO 1
-		TNT1 A 10
+//		TNT1 A 10
 		DURI A 0 A_PlaySound("RELOAD", 1)//reload sound
 		DURI A 0 A_JumpIfInventory("HasUnloaded", 1, 2)
 		DURI A 0 A_FireCustomMissile("EmptyClipSpawn",-5,0,8,-4)
