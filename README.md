@@ -44,6 +44,8 @@ BrutalDoom64 for Quest: https://github.com/ajantaju/br_vr/releases/download/B35/
 
 These don't have PBR textures:
 
+MEATGRINDER!: https://github.com/ajantaju/br_vr/releases/download/RC1/BR_VR_MeatGrinder.zip
+
 Doom64 Retribution: https://github.com/ajantaju/br_vr/blob/master/D64Retribution.zip
 
 HacX 2.0 (+ Doom and Heretic) https://github.com/ajantaju/br_vr/blob/master/HacX.zip
