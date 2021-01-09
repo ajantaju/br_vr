@@ -25,4 +25,83 @@ FrameIndex	TEMP	N	0	12
 FrameIndex	TEMP	O	0	13
 FrameIndex	TEMP	P	0	14
 
+//These need to be copied to all weapons that can do QuickAttacks!!
+//Rename the Model to be same as main weapon ID (CTRL+H in notepad++ and replace the TEMPLATE)
+
+//QuickKnife
+
+Model TEMPLATE				
+{ 
+   Path "Models/Knife/"
+   Model 0 "Knife.md3"
+   Skin 0 "Knife.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+FrameIndex	KNIG	A	0	0
+
+FrameIndex	KNIF	A	0	1
+FrameIndex	KNIF	B	0	2
+FrameIndex	KNIF	C	0	3
+FrameIndex	KNIF	D	0	4
+FrameIndex	KNIF	E	0	5
+FrameIndex	KNIF	F	0	6
+FrameIndex	KNIF	G	0	7
+FrameIndex	KNIF	H	0	8
+FrameIndex	KNIF	I	0	9
+FrameIndex	KNIF	J	0	10
+
+}
+
+//QuickAXE
+
+Model TEMPLATE	
+{ 
+   Path "Models/Axe/"
+   Model 0 "Axe.md3"
+   Skin 0 "Axe.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+FrameIndex	VAXE	A	0	0
+
+FrameIndex	VAXE	B	0	1
+FrameIndex	VAXE	C	0	2
+FrameIndex	VAXE	D	0	3
+FrameIndex	VAXE	E	0	4
+FrameIndex	VAXE	F	0	5
+
+FrameIndex	VAXE	G	0	6
+FrameIndex	VAXE	H	0	7
+FrameIndex	VAXE	I	0	8
+FrameIndex	VAXE	J	0	9
+FrameIndex	VAXE	K	0	10
+
+}
+
+//QuicGrenade
+
+Model TEMPLATE				
+{ 
+   Path "Models/Grenade/"
+   Model 0 "Grenade.md3"
+   Skin 0 "Grenade.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset 0
+   PITCHFROMMOMENTUM
+
+
+FrameIndex	NADE	A	0	0
+
+FrameIndex	NADE	B	0	1
+FrameIndex	NADE	C	0	2
+FrameIndex	NADE	D	0	3
+FrameIndex	NADE	E	0	4
+FrameIndex	NADE	F	0	5
+
+}
+
 }
