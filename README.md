@@ -36,6 +36,9 @@ Doom OpenVR: https://github.com/hh79/gz3doom/files/4378108/HDVRweapons.zip
 
 Doom Quest: https://github.com/ajantaju/br_vr/releases/download/B35/HDweapons-Remake-Quest.zip
 
+Also check Universal Doom 3DWeapons: https://github.com/iAmErmac/Universal_Doom_3DWeapons_VR
+A Doom mod that aims to add support for Doom Classic 3D VR weapons to work with popular iWad and pWad.
+
 More versions:
 
 BrutalDoom64 for OpenVR: https://github.com/ajantaju/br_vr/releases/download/B35/DooM64_BR_WIP.zip
