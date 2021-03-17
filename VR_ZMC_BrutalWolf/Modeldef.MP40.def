@@ -1,33 +1,33 @@
-Model PPSH41				
+Model SecretWeapon_MP40				
 { 
-   Path "Models/PPSH/"
-   Model 0 "PPSH.md3"
-   Skin 0 "PPSH.png"
+   Path "Models/MP40/"
+   Model 0 "MP40.md3"
+   Skin 0 "MP40.png"
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
    ZOffset -5
 
-FrameIndex	PPSH	A	0	0
+FrameIndex	MP40	A	0	0
 
-FrameIndex	PPSH	B	0	1
-FrameIndex	PPSH	C	0	2
-FrameIndex	PPSH	D	0	3
-FrameIndex	PPSH	E	0	4
+FrameIndex	MP40	B	0	1
+FrameIndex	MP40	C	0	2
+FrameIndex	MP40	D	0	3
+FrameIndex	MP40	E	0	4
 
-FrameIndex	PPSH	F	0	5
-FrameIndex	PPSH	G	0	6
-FrameIndex	PPSH	H	0	7
-FrameIndex	PPSH	I	0	8
-FrameIndex	PPSH	J	0	9
+FrameIndex	MP40	F	0	5
+FrameIndex	MP40	G	0	6
+FrameIndex	MP40	H	0	7
+FrameIndex	MP40	I	0	8
+FrameIndex	MP40	J	0	9
 
 }
 
 //These need to be copied to all weapons that can do QuickAttacks!!
-//Rename the Model to be same as main weapon ID (CTRL+H in notepad++ and replace the PPSH41)
+//Rename the Model to be same as main weapon ID (CTRL+H in notepad++ and replace the SecretWeapon_MP40)
 
 //QuickKnife
 
-Model PPSH41				
+Model SecretWeapon_MP40				
 { 
    Path "Models/Knife/"
    Model 0 "Knife.md3"
@@ -53,7 +53,7 @@ FrameIndex	KNIF	J	0	10
 
 //QuickAXE
 
-Model PPSH41	
+Model SecretWeapon_MP40	
 { 
    Path "Models/Axe/"
    Model 0 "Axe.md3"
@@ -80,7 +80,7 @@ FrameIndex	VAXE	K	0	10
 
 //QuicGrenade
 
-Model PPSH41				
+Model SecretWeapon_MP40				
 { 
    Path "Models/Grenade/"
    Model 0 "Grenade.md3"
