@@ -22,7 +22,7 @@ Inventory.Icon "BARBACK"
 States
 {
 Ready:
-TNT1 A 0 A_PlaySound("Deploy/stg44")
+//TNT1 A 0 A_PlaySound("Deploy/stg44")
 
 BARH A 1 A_WeaponReady
 TNT1 A 0 A_SetCrosshair(0)
