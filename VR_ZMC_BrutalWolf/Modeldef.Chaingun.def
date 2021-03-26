@@ -1,38 +1,40 @@
-Model MG42				
+Model BWGatling				
 { 
-   Path "Models/MG42/"
-   Model 0 "MG42.md3"
-   Skin 0 "MG42.png"
+   Path "Models/Chaingun/"
+   Model 0 "Chaingun.md3"
+   Skin 0 "Chaingun.png"
    Scale -1.0 1.0 1.0
    Offset 0.0 0.0 0.0
    ZOffset -5
 
-FrameIndex	ZMGG	A	0	0
+FrameIndex	BWCG	A	0	0
+FrameIndex	BWCG	B	0	1
+FrameIndex	BWCG	C	0	2
 
-FrameIndex	ZMGG	B	0	1
-FrameIndex	ZMGG	C	0	2
-FrameIndex	ZMGG	D	0	3
-FrameIndex	ZMGG	E	0	4
+FrameIndex	BWCG	D	0	3
+FrameIndex	BWCG	E	0	4
+FrameIndex	BWCG	F	0	5
 
-FrameIndex	ZMGG	F	0	5
-FrameIndex	ZMGG	G	0	6
-FrameIndex	ZMGG	H	0	7
-FrameIndex	ZMGG	I	0	8
+FrameIndex	BWCR	A	0	6
+FrameIndex	BWCR	B	0	7
+FrameIndex	BWCR	C	0	8
+FrameIndex	BWCR	D	0	9
+FrameIndex	BWCR	E	0	10
+FrameIndex	BWCR	F	0	11
+FrameIndex	BWCR	G	0	12
+FrameIndex	BWCR	H	0	13
+FrameIndex	BWCR	I	0	14
+FrameIndex	BWCR	J	0	15
 
-FrameIndex	ZMGG	J	0	9
-FrameIndex	ZMGG	K	0	10
-FrameIndex	ZMGG	L	0	11
-FrameIndex	ZMGG	M	0	12
-FrameIndex	ZMGG	N	0	13
-FrameIndex	ZMGG	R	0	14
+FrameIndex	BWCS	A	0	16
 }
 
 //These need to be copied to all weapons that can do QuickAttacks!!
-//Rename the Model to be same as main weapon ID (CTRL+H in notepad++ and replace the MG42)
+//Rename the Model to be same as main weapon ID (CTRL+H in notepad++ and replace the BWGatling)
 
 //QuickKnife
 
-Model MG42				
+Model BWGatling				
 { 
    Path "Models/Knife/"
    Model 0 "Knife.md3"
@@ -58,7 +60,7 @@ FrameIndex	KNIF	J	0	10
 
 //QuickAXE
 
-Model MG42	
+Model BWGatling	
 { 
    Path "Models/Axe/"
    Model 0 "Axe.md3"
@@ -85,7 +87,7 @@ FrameIndex	VAXE	K	0	10
 
 //QuicGrenade
 
-Model MG42				
+Model BWGatling				
 { 
    Path "Models/Grenade/"
    Model 0 "Grenade.md3"
