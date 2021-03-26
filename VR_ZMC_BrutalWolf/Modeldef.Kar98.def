@@ -1,0 +1,123 @@
+Model Karabine98				
+{ 
+   Path "Models/KAR98/"
+   Model 0 "KAR98.md3"
+   Skin 0 "KAR98.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+FrameIndex	ZK9G	A	0	0
+
+FrameIndex	ZK9G	B	0	1
+FrameIndex	ZK9G	C	0	2
+FrameIndex	ZK9G	D	0	3
+FrameIndex	ZK9G	E	0	4
+FrameIndex	ZK9G	F	0	5
+FrameIndex	ZK9G	G	0	6
+
+FrameIndex	ZK9R	A	0	7
+FrameIndex	ZK9R	B	0	8
+FrameIndex	ZK9R	C	0	9
+FrameIndex	ZK9R	D	0	10
+FrameIndex	ZK9R	E	0	11
+
+FrameIndex	ZK9R	F	0	12
+FrameIndex	ZK9R	G	0	13
+FrameIndex	ZK9R	H	0	14
+FrameIndex	ZK9R	I	0	15
+FrameIndex	ZK9R	J	0	16
+
+FrameIndex	ZK9R	K	0	17
+FrameIndex	ZK9R	L	0	18
+FrameIndex	ZK9R	M	0	19
+FrameIndex	ZK9R	N	0	20
+FrameIndex	ZK9R	O	0	21
+
+FrameIndex	ZK9R	P	0	22
+FrameIndex	ZK9R	Q	0	23
+FrameIndex	ZK9R	R	0	24
+FrameIndex	ZK9R	S	0	25
+
+}
+
+//These need to be copied to all weapons that can do QuickAttacks!!
+//Rename the Model to be same as main weapon ID (CTRL+H in notepad++ and replace the Karabine98)
+
+//QuickKnife
+
+Model Karabine98				
+{ 
+   Path "Models/Knife/"
+   Model 0 "Knife.md3"
+   Skin 0 "Knife.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+FrameIndex	KNIG	A	0	0
+
+FrameIndex	KNIF	A	0	1
+FrameIndex	KNIF	B	0	2
+FrameIndex	KNIF	C	0	3
+FrameIndex	KNIF	D	0	4
+FrameIndex	KNIF	E	0	5
+FrameIndex	KNIF	F	0	6
+FrameIndex	KNIF	G	0	7
+FrameIndex	KNIF	H	0	8
+FrameIndex	KNIF	I	0	9
+FrameIndex	KNIF	J	0	10
+
+}
+
+//QuickAXE
+
+Model Karabine98	
+{ 
+   Path "Models/Axe/"
+   Model 0 "Axe.md3"
+   Skin 0 "Axe.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset -5
+
+FrameIndex	VAXE	A	0	0
+
+FrameIndex	VAXE	B	0	1
+FrameIndex	VAXE	C	0	2
+FrameIndex	VAXE	D	0	3
+FrameIndex	VAXE	E	0	4
+FrameIndex	VAXE	F	0	5
+
+FrameIndex	VAXE	G	0	6
+FrameIndex	VAXE	H	0	7
+FrameIndex	VAXE	I	0	8
+FrameIndex	VAXE	J	0	9
+FrameIndex	VAXE	K	0	10
+
+}
+
+//QuicGrenade
+
+Model Karabine98				
+{ 
+   Path "Models/Grenade/"
+   Model 0 "Grenade.md3"
+   Skin 0 "Grenade.png"
+   Scale -1.0 1.0 1.0
+   Offset 0.0 0.0 0.0
+   ZOffset 0
+   PITCHFROMMOMENTUM
+
+
+FrameIndex	NADE	A	0	0
+
+FrameIndex	NADE	B	0	1
+FrameIndex	NADE	C	0	2
+FrameIndex	NADE	D	0	3
+FrameIndex	NADE	E	0	4
+FrameIndex	NADE	F	0	5
+
+}
+
+}
