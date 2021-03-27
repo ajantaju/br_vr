@@ -1,0 +1,4 @@
+//Disable the dual lugers with nice empty file and script errors!
+Actor DoubleLuger:weapon
+{
+}

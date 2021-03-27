@@ -1,0 +1,4 @@
+//Disable the dual STG44s with nice empty file and script errors!
+Actor DoubleSTG44:weapon
+{
+}

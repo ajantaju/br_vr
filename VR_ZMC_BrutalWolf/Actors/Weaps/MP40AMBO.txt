@@ -1,0 +1,4 @@
+//Disable the dual MP40s with nice empty file and script errors!
+Actor MP40Akimbo:weapon
+{
+}
