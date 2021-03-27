@@ -1,0 +1,534 @@
+Actor FlamerCounter:inventory
+{
+Inventory.MaxAmount 1000
+}
+
+
+
+
+ACTOR Flamethrower_BW : Weapon Replaces BFG9000
+{
+Inventory.PickupSound "mp40_take"
+Inventory.PickupMessage "You got the Flammenwerfer 35"
+Obituary "%o was BBQed by %k' FlameThrower."
+Weapon.AmmoType1 "GAS"
+Weapon.AmmoGive 100
+Weapon.AmmoUse 1
+Weapon.bobstyle inverse
+Weapon.BobRangeX 0.75
+Weapon.BobRangeY 0.5
+Weapon.BobSpeed 1.5
+Weapon.BobStyle "InverseAlpha" //Denis Belmondo's Bobstyle
+Weapon.UpSound "Deploy/NewFlamer"
++WEAPON.EXPLOSIVE
+tag "Flammenwerfer 35"
+Inventory.Icon "FLATBACK"
+States
+{
+
+Spawn:
+AGAS B -1
+Loop
+
+Ready:
+TNT1 A 0 ACS_EXECUTE(332,0,0,0,0)
+TNT1 A 0 A_StopSoundEx(2)
+TNT1 A 0 A_TakeInventory("FlamerCounter",1000)
+TNT1 A 0 A_PlaySoundEx("Flamer/idle","Weapon",true)
+FLMG A 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+FLMG A 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+FLMG A 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+//////////////////////////////////////
+FLMG B 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+FLMG B 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+FLMG B 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+///////////////////////////////////////////////////////
+FLMG C 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+FLMG C 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+FLMG C 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+///////////////////////////////////////////////////
+FLMG B 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+FLMG B 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+FLMG B 1 A_WeaponReady
+TNT1 A 0 A_SetCrosshair(0)
+TNT1 A 0 A_JumpIfInventory("ChangeMelee",1,"NewMelee")
+LUGG A 0 A_JumpIfInventory("Kicking",1,"DoKick")
+LUGG A 0 A_JumpIfInventory("Taunting",1,"Taunt")
+TNT1 A 0 A_JumpIfInventory("BWgrenade",1,"LaunchGrenade")
+TNT1 A 0 A_JumpIfInventory("Meleeattack",1,"KnifeAttack")
+LUGG A 0 A_JumpIfInventory("Reloading",1,"Reload")
+Loop
+
+
+Deselect:
+TNT1 A 0 ACS_EXECUTE(332,0,0,0,0)
+TNT1 A 0 A_stopSoundEx("Weapon")
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+TNT1 A 0 A_Takeinventory("BWgrenade",1)
+TNT1 A 0 A_Takeinventory("Reloading",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+//IFLS GFEDCBA 1 
+FLMG A 1 A_Lower
+Wait
+
+Select:
+FLMG A 1 a_raise
+Wait
+
+AltFire:
+Goto KnifeAttack //REMOVES THE ZOOM AND GOES TO QUICATTACKS!!
+Stop 
+
+//
+/*  Fire:
+   FLMG A 0 bright 
+   FLMF A 1 bright A_FireCustomMissile("FTFire_2",1, 1, 1)
+   FLMF B 1 bright A_FireCustomMissile("FTFire_2",1, 1, 1)
+   FLMF A 1 bright A_FireCustomMissile("FTFire_2",1, 1, 1)
+   FLMG A 2 bright A_ReFire
+    Goto Ready+2
+*/
+
+Fire:
+TNT1 A 0 A_JumpIfInventory("FlamerCounter",5,"Fire2")
+TNT1 A 0 A_PlaySound("Flamer/start")
+FLMF A 1
+TNT1 A 0 A_FireCustomMissile("FTFire_2",1, 1, 1)
+FLMF B 1
+TNT1 A 0 A_SetPitch(pitch - 0.2)
+TNT1 A 0 A_GiveInventory("FlamerCounter",5)	
+TNT1 A 0 A_Refire
+Goto Ready
+
+Fire2:
+TNT1 A 0 A_PlaySoundEx("Flamer/loop","Weapon",true)
+TNT1 A 0 A_JumpIfinventory("FlamerCounter",10,"Fire3")
+FLMF A 1
+TNT1 A 0 A_FireCustomMissile("FTFire_2",1, 1, 1)
+FLMF B 1
+TNT1 A 0 A_SetPitch(pitch - 0.2)
+TNT1 A 0 A_GiveInventory("FlamerCounter",5)		
+TNT1 A 0 A_Refire
+Goto Ready
+
+Fire3:
+TNT1 A 0 A_JumpIfinventory("FlamerCounter",20,"Fire4")
+TNT1 A 0 ACS_EXECUTE(333,0,0,0,0)
+FLM1 c 1
+TNT1 A 0 A_FireCustomMissile("FTFire_2",1, 1, 1)
+FLMF C 1
+TNT1 A 0 A_SetPitch(pitch - 0.4) 
+TNT1 A 0 A_GiveInventory("FlamerCounter",5)		
+TNT1 A 0 A_Refire
+Goto Finish1
+
+Finish1:
+FLM2 C 1 
+Goto Ready
+
+Fire4:
+TNT1 A 0 A_JumpIfinventory("FlamerCounter",35,"Fire5")
+TNT1 A 0 ACS_EXECUTE(334,0,0,0,0)
+FLM1 D 1
+TNT1 A 0 A_FireCustomMissile("FTFire_2",1, 1, 1)
+FLMF D 1
+TNT1 A 0 A_SetPitch(pitch - 0.6)
+TNT1 A 0 A_GiveInventory("FlamerCounter",5)		
+TNT1 A 0 A_Refire
+Goto Finish2
+
+Finish2:
+FLM2 DC 1 
+Goto Ready
+
+Fire5:
+TNT1 A 0 A_JumpIfinventory("FlamerCounter",40,"Fire6")
+TNT1 A 0 ACS_EXECUTE(335,0,0,0,0)
+FLM1 e 1
+TNT1 A 0 A_FireCustomMissile("FTFire_2",1, 1, 1)
+FLMF E 1
+TNT1 A 0 A_SetPitch(pitch - 0.8) 
+TNT1 A 0 A_GiveInventory("FlamerCounter",5)		
+TNT1 A 0 A_Refire
+Goto Finish3
+
+Finish3:
+FLM2 EDC 1 
+Goto Ready
+
+Fire6:
+TNT1 A 0 A_JumpIfinventory("FlamerCounter",50,"Fire7")
+TNT1 A 0 ACS_EXECUTE(336,0,0,0,0)
+FLM1 F 1
+TNT1 A 0 A_FireCustomMissile("FTFire_2",1, 1, 1)
+FLMF F 1
+TNT1 A 0 A_SetPitch(pitch - 1.0) 
+TNT1 A 0 A_GiveInventory("FlamerCounter",5)		
+TNT1 A 0 A_Refire
+Goto Finish4
+
+Finish4:
+FLM2 FEDC 1 
+Goto Ready
+
+Fire7:
+TNT1 A 0 ACS_EXECUTE(337,0,0,0,0)
+FLM1 G 1 
+TNT1 A 0 A_FireCustomMissile("FTFire_2",1, 1, 1)
+FLMF G 1
+TNT1 A 0 A_SetPitch(pitch - 1.2)
+TNT1 A 0 A_Refire
+Goto Finish5
+
+Finish5:
+FLM2 GFEDC 1 
+Goto Ready
+
+
+DoKick:
+TNT1 A 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_PlaySound("KICK")
+TNT1 A 0 SetPlayerProperty(0,1,0)
+KICK BCD 1
+RIFF A 0 A_FireCustomMissile("KickAttack", 0, 0, 0, -7)
+KICK H 4
+KICK A 0 A_Takeinventory("Kicking",1)
+KICK IGFEDCBA 1
+TNT1 A 0 SetPlayerProperty(0,0,0)
+Goto Ready
+
+Taunt:
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 5
+FUCK A 2
+TNT1 A 0 BRIGHT A_FireCustomMissile("Taunter", 0, 0, -1, 0)
+TNT1 A 0 BRIGHT A_FireCustomMissile("Taunter", -9, 0, -1, 0)
+TNT1 A 0 BRIGHT A_FireCustomMissile("Taunter", 9, 0, -1, 0)
+FUCK B 2 A_PlaySound("FUCK", 1)
+FUCK C 2 A_AlertMonsters
+FUCK D 15 A_Takeinventory("Taunting",1)
+FUCK CBA 5
+TNT1 A 5
+Goto Ready
+
+	//COPY AND REPLACE THE BELOW SECTIONS IN OTHER WEAPONS TOO! VR QuickAttacks!
+
+LaunchGrenade:	
+TNT1 A 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_TakeInventory("LaunchGrenade", 1)
+TNT1 A 0 A_JumpIfInventory("GrenadeAmmo", 1, 1)
+Goto NoGrenade
+NADE ABCDEF 2
+TNT1 A 0 A_playSound("Pick/granate")
+TNT1 A 0 A_Jump(90,2)
+TNT1 A 0 A_PlaySound("*grenadecall", CHAN_VOICE)
+NADE FEDCB 1
+TNT1 A 0 A_PLaySound ("Launch/granate")
+TNT1 A 0 A_FireCustomMissile("_HandGrenade2", random(-3,3), 1, 0, 0, 0, 0)
+TNT1 A 0 A_TakeInventory("GrenadeAmmo", 1)
+TNT1 A 1 
+TNT1 A 0 A_TakeInventory("LaunchGrenade", 1)
+TNT1 A 0 A_Takeinventory("BWgrenade",1)
+Goto Ready
+
+NoGrenade:
+TNT1 A 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_Print("No Grenades Left!")
+TNT1 A 0 A_Takeinventory("BWgrenade",1)
+Goto Ready
+
+
+
+NewMelee:
+TNT1 A 0 A_JumpIfInventory("_Axe2",1,3)
+Goto NoAxeIn
+TNT1 AAA 0
+TNT1 A 0 A_JumpIfinventory("ChangeMelee1",1,"NewMelee2")
+TNT1 A 0 A_JumpIfInventory("ChangeMelee2",1,"NewMelee3")
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_GiveInventory("ChangeMelee1",1)
+TNT1 A 0 A_Print("Quick Axe attack selected!")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto Ready
+
+NewMelee2:
+TNT1 AAA 0
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee1",1)
+TNT1 A 0 A_GiveInventory("ChangeMelee2",1)
+TNT1 A 0 A_Print("Quick Axe throw selected!")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto Ready
+
+NoAxeIn:
+TNT1 A 0 A_Print("You need a light axe for alterning melee attacks.You can only use the Knife for now.")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee1",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee2",1)
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto Ready
+
+NewMelee3:
+TNT1 A 0 A_TakeInventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee2",1)
+TNT1 A 0 A_Print("Quick knife attack selected!")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+Goto Ready
+
+KnifeAttack:
+TNT1 A 0 A_JumpIfinventory("ChangeMelee1",1,"AxeAttackState")
+TNT1 A 0 A_JumpIfInventory("ChangeMelee2",1,"AxeThrowState")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_Jump(90,2)
+TNT1 A 0 A_PlaySound("*taunt", CHAN_VOICE)
+KNIF ABCDE 1
+KNIF F 1 A_PlaySound("weapons/wknife")
+KNIF F 0 A_Custompunch(16,0,1,"KnifePuff")
+KNIF GHI 1 
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+GOTO Ready
+
+AxeAttackState:
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+VAXE ABCD 3
+
+
+TNT1 A 0 A_PlaySound("weapons/AxeFist")
+tnt1 a 0 A_firecustommissile("AxeAttack2",0,0,0,0)
+VAXE EF 3
+VAXE A 2
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+Goto Ready
+
+AxeThrowState:
+tnt1 a 0 a_jumpifInventory("AxeAmmo",2,3)
+Goto LastThrowState
+TNT1 AAA 0
+TNT1 A 0 A_JumpIfInventory("AxeAmmo",1,3)
+Goto NoAmmoForAxe
+TNT1 AAA 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+//VAXE HGK 3
+VAXE K 1
+TNT1 A 0 A_RefirE
+TNT1 AAA 0
+VAXE KGH 1 
+//VAXE AB 1
+TNT1 A 0 A_TakeInventory("AxeAmmo",1)
+TNT1 A 0 A_PLaySound("AxeSwing")
+tnt1 a 0 A_firecustommissile("_thrownAxe",0,0,0,0)
+//GRWF STUVW 2 //Empty hand animation
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+Goto Ready
+
+LastThrowState:
+TNT1 A 0 A_JumpIfInventory("AxeAmmo",1,3)
+Goto NoAmmoForAxe
+TNT1 AAA 0
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+//VAXE HGK 3
+VAXE K 1
+TNT1 A 0 A_RefirE
+TNT1 AAA 0
+VAXE KGH 1 
+//VAXE AB 1
+TNT1 A 0 A_TakeInventory("AxeAmmo",1)
+TNT1 A 0 A_TakeInventory("_Axe2",1)
+TNT1 A 0 A_PLaySound("AxeSwing")
+tnt1 a 0 A_firecustommissile("_thrownAxe",0,0,0,0)
+//GRWF STUVW 2 //Empty hand animation
+TNT1 A 0 A_Takeinventory("Meleeattack",1)
+Goto Ready
+
+NoAmmoForAxe:
+TNT1 A 0
+TNT1 A 0 A_Print("No axes Left! Back to use the knife.")
+TNT1 A 0 A_JumpIfinventory("Zoomed",1,"Ready2")
+TNT1 A 0 A_Takeinventory("Zoomed",1)
+TNT1 A 0 A_Takeinventory("ADSmode",1)
+TNT1 A 0 A_ZoomFactor(1.0)
+TNT1 A 0 A_Takeinventory("ChangeMelee",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee1",1)
+TNT1 A 0 A_TakeInventory("ChangeMelee2",1)
+TNT1 A 0 A_Takeinventory("MeleeAttack",1)
+Goto Ready
+}
+}
+
+	//END OF QUICKATTACK SECTIONS!!
+
+
+ACTOR GAS : Ammo Replaces Cell
+{
+	Inventory.PickupSound "pickups/ammo"
+	Inventory.PickupMessage ""
+	Inventory.Amount 40
+	Inventory.MaxAmount 1000
+	Ammo.BackpackAmount 40
+	Ammo.BackpackMaxAmount 1000
+	Mass 10000
+        Inventory.Icon "agasA0"
+	States
+	{
+	Spawn:
+		AGAS A -1
+		Loop
+		
+		
+  }
+}
+
+Actor FTFire_2
+{
+  Radius 12
+  Height 4
+  Speed 16
+  Damage 1
+  Projectile
+  RenderStyle Add
+  DamageType Fire
+  +DontSplash
+  Alpha 0.67
+  Scale 0.67
+  //SeeSound "Flamethrower/Fire"
+  DeathSound "Flamethrower/Hit"
+  States
+  {
+  Spawn:
+    TNT1 A 2
+		OFBU B 0 A_CustomMissile("FlamerBurnParticles", 0, 0, random (0, 360), 2, random (50, 130))
+				OFBU B 0 A_CustomMissile("ExplosionParticleVerySlow", 0, 0, random (0, 360), 2, random (50, 130))
+    FRFX ABCD 2 bright A_Explode(5, 8, 0)
+	OFBU B 0 A_CustomMissile("FlamerBurnParticles", 0, 0, random (0, 360), 2, random (50, 130))
+		OFBU B 0 A_CustomMissile("ExplosionParticleVerySlow", 0, 0, random (0, 360), 2, random (50, 130))
+    TNT1 A 0 A_LowGravity
+    FRFX EFG 2 bright A_Explode(5, 16, 0)
+	OFBU B 0 A_CustomMissile("FlamerBurnParticles", 0, 0, random (0, 360), 2, random (50, 130))
+		OFBU B 0 A_CustomMissile("ExplosionParticleVerySlow", 0, 0, random (0, 360), 2, random (50, 130))
+    FRFX HIJ 2 bright A_Explode(5, 32, 0)
+	OFBU B 0 A_CustomMissile("FlamerBurnParticles", 0, 0, random (0, 360), 2, random (50, 130))
+		OFBU B 0 A_CustomMissile("ExplosionParticleVerySlow", 0, 0, random (0, 360), 2, random (50, 130))
+	TNT1 A 0 A_Gravity
+    FRFX KLM 2 bright A_Explode(5, 64, 0)
+	OFBU B 0 A_CustomMissile("FlamerBurnParticles", 0, 0, random (0, 360), 2, random (50, 130))
+		OFBU B 0 A_CustomMissile("ExplosionParticleVerySlow", 0, 0, random (0, 360), 2, random (50, 130))
+    FRFX NO 2 bright
+		OFBU B 0 A_CustomMissile("FlamerBurnParticles", 0, 0, random (0, 360), 2, random (50, 130))
+		OFBU B 0 A_CustomMissile("ExplosionParticleVerySlow", 0, 0, random (0, 360), 2, random (50, 130))
+    Stop
+  Death:
+    FRFX HIJ 2 bright A_Explode(5, 32, 0)
+		OFBU B 0 A_CustomMissile("FlamerBurnParticles", 0, 0, random (0, 360), 2, random (50, 130))
+		OFBU B 0 A_CustomMissile("ExplosionParticleVerySlow", 0, 0, random (0, 360), 2, random (50, 130))
+    FRFX KLM 2 bright A_Explode(5, 64, 0)
+    FRFX NO 2 bright
+    Stop
+  }
+}
+
+
