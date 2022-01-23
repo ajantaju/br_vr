@@ -1,0 +1,384 @@
+Model Rifle
+{
+	Path "Models/Weapons/Hud/Rifle"
+	Model 0 "Rifle.md3"
+	Skin 0 "Rifle.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.45 0.0 0.0
+	ZOffset -17.5
+	NoInterpolation
+
+	//Ready weapon
+
+	FrameIndex RIFS A 0 0
+	FrameIndex RIFS B 0 1
+	FrameIndex RIFS C 0 2
+
+	//Aim and Firing
+
+	FrameIndex RIFG A 0 3
+	FrameIndex RIFF A 0 4
+	FrameIndex RIFF B 0 5
+	FrameIndex RIFF C 0 6
+
+	//Reload
+
+	FrameIndex RIFR A 0 7
+	FrameIndex RIFR B 0 8
+	FrameIndex RIFR C 0 9
+	FrameIndex RIFR D 0 10
+	FrameIndex RIFR E 0 11
+	FrameIndex RIFR F 0 12
+	FrameIndex RIFR G 0 13
+	FrameIndex RIFR H 0 14
+	FrameIndex RIFR I 0 15
+	FrameIndex RIFR J 0 16
+	FrameIndex RIFR K 0 17
+	FrameIndex RIFR L 0 18
+	FrameIndex RIFR M 0 19
+	FrameIndex RIFR N 0 20
+	FrameIndex RIFR O 0 21
+	FrameIndex RIFR P 0 22
+	FrameIndex RIFR Q 0 23
+	FrameIndex RIFR R 0 24
+	FrameIndex RIFR S 0 25
+	FrameIndex RIFR T 0 26
+
+	//Zoom
+
+	FrameIndex RIFZ A 0 27
+	FrameIndex RIFZ B 0 28
+	FrameIndex RIFZ C 0 29
+
+	//Sprint
+
+	FrameIndex RISP A 0 30
+	FrameIndex RISP B 0 31
+
+	//Start / Right reload
+
+	FrameIndex R2RL A 0 21
+	FrameIndex R2RL B 0 22
+	FrameIndex R2RL C 0 23
+	FrameIndex R2RL D 0 24
+	FrameIndex R2RL E 0 25
+}
+
+Model Rifle//ZOOM
+{
+	Path "Models/Weapons/Hud/FIST"
+	Model 0 "fistclosed.md3"
+	Skin 0 "fist.png"
+	Scale -1.0 1.0 1.0
+	Offset 10.0 0.0 0.0
+	ZOffset -10
+	NoInterpolation
+
+	//Tactical
+
+	FrameIndex	PUNS	A	0	35
+	FrameIndex	PUNS	B	0	36
+	FrameIndex	PUNS	C	0	37
+	FrameIndex	PUNS	D	0	38
+	FrameIndex	PUNS	E	0	39
+	FrameIndex	PUNS	F	0	40
+	FrameIndex	PUNS	G	0	41
+	FrameIndex	PUNS	H	0	42
+	FrameIndex	PUNS	I	0	43
+	FrameIndex	PUNS	J	0	44
+}
+
+Model Rifle//ZOOM
+{
+	Path "Models/Weapons/Hud/Rifle"
+	Model 0 "Rifle.md3"
+	Skin 0 "Rifle.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.45 0.0 0.0
+	ZOffset -10
+	NoInterpolation
+
+	//Zoom Aim and Fire
+
+	FrameIndex RI2G A 0 3
+	FrameIndex RI2F A 0 4
+	FrameIndex RI2F B 0 5
+	FrameIndex RI2F C 0 6
+}
+
+//Dual Rifle
+
+Model DualRifles
+{
+	Path "Models/Weapons/Hud/Rifle"
+	Model 0 "Rifle_Dual.md3"
+	Skin 0 "Rifle.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.45 0.0 0.0
+	ZOffset -17.5
+	NoInterpolation
+
+	//Aim and Firing
+
+	FrameIndex DURI A 0 0
+	FrameIndex DURI B 0 1
+	FrameIndex DURI C 0 2
+	FrameIndex DURI D 0 3
+	FrameIndex DURI E 0 4
+
+	//Reload left
+
+	FrameIndex	R2RR	A	0	5
+	FrameIndex	R2RR	B	0	6
+	FrameIndex	R2RR	C	0	7
+	FrameIndex	R2RR	D	0	8
+	FrameIndex	R2RR	E	0	9
+	FrameIndex	R2RR	F	0	10
+	FrameIndex	R2RR	G	0	11
+	FrameIndex	R2RR	H	0	12
+	FrameIndex	R2RR	I	0	13
+	FrameIndex	R2RR	J	0	14
+	FrameIndex	R2RR	K	0	15
+	FrameIndex	R2RR	L	0	16
+	FrameIndex	R2RR	M	0	17
+	FrameIndex	R2RR	N	0	18
+	FrameIndex	R2RR	O	0	19
+
+	//Reload Right
+
+	FrameIndex	R2RL	A	0	20
+	FrameIndex	R2RL	B	0	21
+	FrameIndex	R2RL	C	0	22
+	FrameIndex	R2RL	D	0	23
+	FrameIndex	R2RL	E	0	24
+	FrameIndex	R2RL	F	0	25
+	FrameIndex	R2RL	G	0	26
+	FrameIndex	R2RL	H	0	27
+	FrameIndex	R2RL	I	0	28
+	FrameIndex	R2RL	J	0	29
+	FrameIndex	R2RL	K	0	30
+	FrameIndex	R2RL	L	0	31
+	FrameIndex	R2RL	M	0	32
+	FrameIndex	R2RL	N	0	33
+	FrameIndex	R2RL	O	0	34
+
+	//Change?
+
+	FrameIndex	DURR	A	0	35
+	FrameIndex	DURR	B	0	36
+	FrameIndex	DURR	C	0	37
+	FrameIndex	DURR	D	0	38
+	FrameIndex	DURR	E	0	39
+}
+
+Model Rifle
+{
+	Path "Models/Weapons/Hud/Grenade"
+	Model 0 "nade.md3"
+	Skin 0 "nade.png"
+	Scale -1.0 1.0 1.0
+	Offset 20.0 0.0 0.0
+	NoInterpolation
+	ZOffset -15
+	RollOffset 15
+
+	//Aim and Fire
+
+	FrameIndex	GRTH	A	0	3
+	FrameIndex	GRTH	B	0	4
+	FrameIndex	GRTH	C	0	5
+	FrameIndex	GRTH	D	0	6
+	FrameIndex	GRTH	E	0	7
+	FrameIndex	GRTH	F	0	8
+	FrameIndex	GRTH	G	0	9
+
+	FrameIndex	GRTH	H	0	10
+	FrameIndex	GRTH	I	0	11
+	FrameIndex	GRTH	J	0	12
+	FrameIndex	GRTH	K	0	13
+	FrameIndex	GRTH	L	0	14
+	FrameIndex	GRTH	M	0	15
+}
+
+Model DualRifles
+{
+	Path "Models/Weapons/Hud/Grenade"
+	Model 0 "nade.md3"
+	Skin 0 "nade.png"
+	Scale -1.0 1.0 1.0
+	Offset 20.0 0.0 0.0
+	NoInterpolation
+	ZOffset -15
+	RollOffset 15
+
+	//Aim and Fire
+
+	FrameIndex	GRTH	A	0	3
+	FrameIndex	GRTH	B	0	4
+	FrameIndex	GRTH	C	0	5
+	FrameIndex	GRTH	D	0	6
+	FrameIndex	GRTH	E	0	7
+	FrameIndex	GRTH	F	0	8
+	FrameIndex	GRTH	G	0	9
+
+	FrameIndex	GRTH	H	0	10
+	FrameIndex	GRTH	I	0	11
+	FrameIndex	GRTH	J	0	12
+	FrameIndex	GRTH	K	0	13
+	FrameIndex	GRTH	L	0	14
+	FrameIndex	GRTH	M	0	15
+}
+
+Model Rifle
+{
+	Path "Models/Weapons/Hud/Boot"
+	Model 0 "Boot.md3"
+	Skin 0 "Boot.png"
+	Scale -1.0 1.0 1.0
+	Offset 5.0 0.0 0.0
+	NoInterpolation
+	ZOffset -20
+
+	FrameIndex	KIK1	A	0	5
+	FrameIndex	KIK1	B	0	6
+	FrameIndex	KIK1	C	0	7
+	FrameIndex	KIK1	D	0	8
+	FrameIndex	KIK1	E	0	9
+
+	FrameIndex	KIK2	A	0	10
+	FrameIndex	KIK2	B	0	11
+	FrameIndex	KIK2	C	0	12
+	FrameIndex	KIK2	D	0	13
+	FrameIndex	KIK2	E	0	14
+
+	FrameIndex	KICK	A	0	20
+	FrameIndex	KICK	B	0	21
+	FrameIndex	KICK	C	0	22
+	FrameIndex	KICK	D	0	23
+	FrameIndex	KICK	E	0	24
+	FrameIndex	KICK	F	0	25
+	FrameIndex	KICK	G	0	26
+	FrameIndex	KICK	H	0	27
+	FrameIndex	KICK	I	0	28
+	FrameIndex	KICK	J	0	29
+	FrameIndex	KICK	K	0	30
+	FrameIndex	KICK	L	0	31
+	FrameIndex	KICK	M	0	32
+	FrameIndex	KICK	N	0	33
+	FrameIndex	KICK	O	0	34
+	FrameIndex	KICK	P	0	35
+	FrameIndex	KICK	Q	0	36
+	FrameIndex	KICK	R	0	37
+	FrameIndex	KICK	S	0	38
+	FrameIndex	KICK	T	0	39
+	FrameIndex	KICK	U	0	40
+
+	FrameIndex	STOM	A	0	53
+	FrameIndex	STOM	B	0	54
+	FrameIndex	STOM	C	0	55
+	FrameIndex	STOM	D	0	56
+	FrameIndex	STOM	E	0	57
+}
+
+Model Rifle
+{
+	Path "Models/Weapons/Hud/FIST"
+	Model 0 "fistclosed.md3"
+	Skin 0 "fist.png"
+	Scale -1.0 1.0 1.0
+	Offset 15.0 0.0 0.0
+	ZOffset -15
+
+	FrameIndex	FUCK	A	0	61
+	FrameIndex	FUCK	B	0	62
+	FrameIndex	FUCK	C	0	63
+	FrameIndex	FUCK	D	0	64
+	FrameIndex	FUCK	E	0	64
+	FrameIndex	FUCK	F	0	66
+	FrameIndex	FUCK	G	0	67
+	FrameIndex	FUCK	H	0	68
+	FrameIndex	FUCK	I	0	69
+	FrameIndex	FUCK	J	0	69
+	FrameIndex	FUCK	K	0	71
+	FrameIndex	FUCK	L	0	72
+	FrameIndex	FUCK	M	0	73
+	FrameIndex	FUCK	N	0	74
+	FrameIndex	FUCK	O	0	74
+}
+
+Model DualRifles
+{
+	Path "Models/Weapons/Hud/Boot"
+	Model 0 "Boot.md3"
+	Skin 0 "Boot.png"
+	Scale -1.0 1.0 1.0
+	Offset 5.0 0.0 0.0
+	NoInterpolation
+	ZOffset -20
+
+	FrameIndex	KIK1	A	0	5
+	FrameIndex	KIK1	B	0	6
+	FrameIndex	KIK1	C	0	7
+	FrameIndex	KIK1	D	0	8
+	FrameIndex	KIK1	E	0	9
+
+	FrameIndex	KIK2	A	0	10
+	FrameIndex	KIK2	B	0	11
+	FrameIndex	KIK2	C	0	12
+	FrameIndex	KIK2	D	0	13
+	FrameIndex	KIK2	E	0	14
+
+	FrameIndex	KICK	A	0	20
+	FrameIndex	KICK	B	0	21
+	FrameIndex	KICK	C	0	22
+	FrameIndex	KICK	D	0	23
+	FrameIndex	KICK	E	0	24
+	FrameIndex	KICK	F	0	25
+	FrameIndex	KICK	G	0	26
+	FrameIndex	KICK	H	0	27
+	FrameIndex	KICK	I	0	28
+	FrameIndex	KICK	J	0	29
+	FrameIndex	KICK	K	0	30
+	FrameIndex	KICK	L	0	31
+	FrameIndex	KICK	M	0	32
+	FrameIndex	KICK	N	0	33
+	FrameIndex	KICK	O	0	34
+	FrameIndex	KICK	P	0	35
+	FrameIndex	KICK	Q	0	36
+	FrameIndex	KICK	R	0	37
+	FrameIndex	KICK	S	0	38
+	FrameIndex	KICK	T	0	39
+	FrameIndex	KICK	U	0	40
+
+	FrameIndex	STOM	A	0	53
+	FrameIndex	STOM	B	0	54
+	FrameIndex	STOM	C	0	55
+	FrameIndex	STOM	D	0	56
+	FrameIndex	STOM	E	0	57
+}
+
+Model DualRifles
+{
+	Path "Models/Weapons/Hud/FIST"
+	Model 0 "fistclosed.md3"
+	Skin 0 "fist.png"
+	Scale -1.0 1.0 1.0
+	Offset 15.0 0.0 0.0
+	ZOffset -15
+
+	FrameIndex	FUCK	A	0	61
+	FrameIndex	FUCK	B	0	62
+	FrameIndex	FUCK	C	0	63
+	FrameIndex	FUCK	D	0	64
+	FrameIndex	FUCK	E	0	64
+	FrameIndex	FUCK	F	0	66
+	FrameIndex	FUCK	G	0	67
+	FrameIndex	FUCK	H	0	68
+	FrameIndex	FUCK	I	0	69
+	FrameIndex	FUCK	J	0	69
+	FrameIndex	FUCK	K	0	71
+	FrameIndex	FUCK	L	0	72
+	FrameIndex	FUCK	M	0	73
+	FrameIndex	FUCK	N	0	74
+	FrameIndex	FUCK	O	0	74
+}

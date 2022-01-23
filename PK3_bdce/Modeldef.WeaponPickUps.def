@@ -1,0 +1,264 @@
+Model BuzzsawSpawner
+{
+	Path "Models/Weapons/Hud/HitlersBuzzsaw"
+	Model 0 "HitlersBuzzsaw.md3"
+	Skin 0 "HitlersBuzzsaw.png"
+	Scale -0.5 0.5 0.5
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	HBUS	D	0	0
+}
+
+Model ChainsawSpawner
+{
+	Path "Models/Weapons/Hud/Chain_saw"
+	Model 0 "Chain_saw.md3"
+	Skin 0 "Chain_saw.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	CSAW	A	0	13
+}
+
+Model FakeUnmakerSprite
+{
+	Path "Models/Weapons/Hud/Unmaker"
+	Model 0 "Unmaker.md3"
+	Skin 0 "Unmaker.png"
+	Scale -0.5 0.5 0.5
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	UNHW	A	0	0
+}
+
+Model FakeASGSprite
+{
+	Path "Models/Weapons/Hud/AssaultShotgun"
+	Model 0 "AssaultShotgun.md3"
+	Skin 0 "AssaultShotgun.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	A12P	A	0	4
+}
+
+Model FakeAxeSprite
+{
+	Path "Models/Weapons/Hud/BrutalAxe"
+	Model 0 "BrutalAxe.md3"
+	Skin 0 "BrutalAxe.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 2.5
+	RollOffset 90
+
+	FrameIndex	AXE1	A	0	5
+}
+
+Model FakeBFGSprite
+{
+	Path "Models/Weapons/Hud/BFG"
+	Model 0 "BFG.md3"
+	Skin 0 "BFG.png"
+	Scale -0.5 0.5 0.5
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	BFUG	A	0	6
+}
+
+Model FakeBFG10KSprite
+{
+	Path "Models/Weapons/Hud/BFG"
+	Model 0 "BFG_10k.md3"
+	Skin 0 "BFG_10k.png"
+	Scale -0.5 0.5 0.5
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	BFG2	A	0	6
+}
+
+Model FakeFlameCannonSprite
+{
+	Path "Models/Weapons/Hud/FlameCannon"
+	Model 0 "FlameCannon.md3"
+	Skin 0 "FlameCannon.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	MANA	H	0	0
+}
+
+Model FakeFlameThrowerSprite
+{
+	Path "Models/Weapons/Hud/Flamethrower2"
+	Model 0 "Flamethrower2.md3"
+	Skin 0 "Flamethrower2.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 20.0
+
+	FrameIndex	FLMT	F	0	0
+}
+
+Model FakeGLSprite
+{
+	Path "Models/Weapons/Hud/M79"
+	Model 0 "M79.md3"
+	Skin 0 "M79.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	GLAP	A	0	3
+}
+
+Model FakeHMLSprite
+{
+	Path "Models/Weapons/Hud/HellishMissile"
+	Model 0 "HellishMissile.md3"
+	Skin 0 "HellishMissile.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	FATB	D	0	0
+}
+
+Model FakeMachinegunSprite
+{
+	Path "Models/Weapons/Hud/Machinegun"
+	Model 0 "Machinegun.md3"
+	Skin 0 "Machinegun.png"
+	Scale -0.5 0.5 0.5
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	MGN1	Z	0	4
+}
+
+Model FakeMinigunSprite
+{
+	Path "Models/Weapons/Hud/Minigun"
+	Model 0 "Minigun.md3"
+	Skin 0 "Minigun.png"
+	Scale -0.5 0.5 0.5
+	Offset 50.0 0.0 10.0
+
+	FrameIndex	MGUN	A	0	4
+}
+
+Model FakeNewSGSprite
+{
+	Path "Models/Weapons/Hud/Shotgun"
+	Model 0 "Shotgun.md3"
+	Skin 0 "Shotgun.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	SHTC	A	0	4
+}
+
+Model FakeRailgunSprite
+{
+	Path "Models/Weapons/Hud/RailGun"
+	Model 0 "RailGun.md3"
+	Skin 0 "RailGun.png"
+	Scale -0.5 0.5 0.5
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	SRCG	A	0	3
+}
+
+Model FakeRevolverSprite
+{
+	Path "Models/Weapons/Hud/Revolver"
+	Model 0 "Revolver.md3"
+	Skin 0 "Revolver.png"
+	Scale -1.0 1.0 1.0
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	REVP	A	0	0
+}
+
+Model FakeRifleSprite
+{
+	Path "Models/Weapons/Hud/Rifle"
+	Model 0 "Rifle.md3"
+	Skin 0 "Rifle.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	RIFL	A	0	3
+}
+
+Model FakeRL2Sprite
+{
+	Path "Models/Weapons/Hud/RPG"
+	Model 0 "RPG.md3"
+	Skin 0 "RPG.png"
+	Scale -0.5 0.5 0.5
+	Offset -25.0 0.0 10.0
+
+	FrameIndex	RLAU	A	0	5
+}
+
+Model GrenadeAmmo
+{
+	Path "Models/Weapons/Hud/Grenade"
+	Model 0 "nade.md3"
+	Skin 0 "nade.png"
+	Scale -2.0 2.0 2.0
+	Offset 50.0 0.0 10.0
+
+	FrameIndex	GRND	H	0	3
+}
+
+Model MP40Spawner
+{
+	Path "Models/Weapons/Hud/MP40"
+	Model 0 "MP40.md3"
+	Skin 0 "MP40.png"
+	Scale -0.5 0.5 0.5
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	MP40	I	0	2
+}
+
+Model PistolSpawner
+{
+	Path "Models/Weapons/Hud/BrutalPistol"
+	Model 0 "BrutalPistol.md3"
+	Skin 0 "BrutalPistol.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	PIST	G	0	2
+}
+
+Model PLasmagunSpawner
+{
+	Path "Models/Weapons/Hud/Plasma_Gun"
+	Model 0 "Plasma.md3"
+	Skin 0 "Plasma.png"
+	Scale -0.5 0.5 0.5
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	PLAS	A	0	4
+}
+
+Model SMGSpawner
+{
+	Path "Models/Weapons/Hud/BrutalSMG"
+	Model 0 "BrutalSMG.md3"
+	Skin 0 "BrutalSMG.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	SMGZ	A	0	3
+}
+
+Model SSGSpawner
+{
+	Path "Models/Weapons/Hud/SSG"
+	Model 0 "SSG.md3"
+	Skin 0 "ssg.png"
+	Scale -0.8 0.8 0.8
+	Offset 25.0 0.0 10.0
+
+	FrameIndex	SGN2	A	0	1
+}
