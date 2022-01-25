@@ -6,7 +6,7 @@ Model BrutalAxe//Vertical
 	Scale -1.5 1.5 1.5
 	Offset 0.0 10.0 0.0
 	NoInterpolation
-	ZOffset -35
+	ZOffset 5
 	PitchOffset -10
 	RollOffset 20
 
@@ -44,8 +44,7 @@ Model BrutalAxe//Horizontal
 	Scale -1.5 1.5 1.5
 	Offset 0.0 10.0 0.0
 	NoInterpolation
-	ZOffset -10
-	//PitchOffset -10
+	ZOffset 5
 	RollOffset 80
 
 	//Aim and Fire
@@ -65,7 +64,7 @@ Model BrutalAxe//Vertical
 	Scale -1.5 1.5 1.5
 	Offset 0.0 10.0 0.0
 	NoInterpolation
-	ZOffset -35
+	ZOffset 5
 	PitchOffset -10
 	RollOffset 20
 
@@ -103,8 +102,7 @@ Model BrutalAxe//Horizontal
 	Scale -1.5 1.5 1.5
 	Offset 0.0 10.0 0.0
 	NoInterpolation
-	ZOffset -10
-	//PitchOffset -10
+	ZOffset 5
 	RollOffset 80
 
 	//Aim and Fire
@@ -124,7 +122,7 @@ Model BrutalAxe//Vertical
 	Scale -1.5 1.5 1.5
 	Offset 0.0 10.0 0.0
 	NoInterpolation
-	ZOffset -35
+	ZOffset 5
 	PitchOffset -10
 	RollOffset 20
 
@@ -162,8 +160,7 @@ Model BrutalAxe//Horizontal
 	Scale -1.5 1.5 1.5
 	Offset 0.0 10.0 0.0
 	NoInterpolation
-	ZOffset -10
-	//PitchOffset -10
+	ZOffset 5
 	RollOffset 80
 
 	//Aim and Fire
@@ -183,7 +180,7 @@ Model BrutalAxe//Vertical
 	Scale -1.5 1.5 1.5
 	Offset 0.0 10.0 0.0
 	NoInterpolation
-	ZOffset -35
+	ZOffset 5
 	PitchOffset -10
 	RollOffset 20
 
@@ -221,8 +218,7 @@ Model BrutalAxe//Horizontal
 	Scale -1.5 1.5 1.5
 	Offset 0.0 10.0 0.0
 	NoInterpolation
-	ZOffset -10
-	//PitchOffset -10
+	ZOffset 5
 	RollOffset 80
 
 	//Aim and Fire
@@ -238,10 +234,9 @@ Model BrutalAxe
 	Model 0 "nade.md3"
 	Skin 0 "nade.png"
 	Scale -1.0 1.0 1.0
-	Offset 20.0 0.0 0.0
+	Offset 0.0 0.0 0.0
 	NoInterpolation
-	ZOffset -15
-	RollOffset 15
+	ZOffset -5
 
 	//Aim and Fire
 
@@ -267,9 +262,9 @@ Model BrutalAxe
 	Model 0 "Boot.md3"
 	Skin 0 "Boot.png"
 	Scale -1.0 1.0 1.0
-	Offset 5.0 0.0 0.0
+	Offset 0.0 0.0 0.0
 	NoInterpolation
-	ZOffset -20
+	ZOffset -5
 
 	FrameIndex	KIK1	A	0	5
 	FrameIndex	KIK1	B	0	6
@@ -318,8 +313,8 @@ Model BrutalAxe
 	Model 0 "fistclosed.md3"
 	Skin 0 "fist.png"
 	Scale -1.0 1.0 1.0
-	Offset 15.0 0.0 0.0
-	ZOffset -15
+	Offset 0.0 0.0 0.0
+	ZOffset -5
 
 	FrameIndex	FUCK	A	0	61
 	FrameIndex	FUCK	B	0	62

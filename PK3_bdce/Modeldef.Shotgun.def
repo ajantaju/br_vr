@@ -5,7 +5,7 @@ Model Shot_Gun
 	Skin 0 "Shotgun.png"
 	Scale -1.0 1.0 1.0
 	Offset 0.0 0.0 0.0
-	ZOffset -18
+	ZOffset -5
 	NoInterpolation
 
 	//Ready
@@ -87,7 +87,7 @@ Model Shot_Gun2
 	Skin 0 "Shotgun.png"
 	Scale -1.0 1.0 1.0
 	Offset 0.0 0.0 0.0
-	ZOffset -18
+	ZOffset -5
 	NoInterpolation
 
 	//Ready
@@ -168,10 +168,9 @@ Model Shot_Gun
 	Model 0 "nade.md3"
 	Skin 0 "nade.png"
 	Scale -1.0 1.0 1.0
-	Offset 20.0 0.0 0.0
+	Offset 0.0 0.0 0.0
 	NoInterpolation
-	ZOffset -15
-	RollOffset 15
+	ZOffset -5
 
 	//Aim and Fire
 
@@ -197,10 +196,9 @@ Model Shot_Gun2
 	Model 0 "nade.md3"
 	Skin 0 "nade.png"
 	Scale -1.0 1.0 1.0
-	Offset 20.0 0.0 0.0
+	Offset 0.0 0.0 0.0
 	NoInterpolation
-	ZOffset -15
-	RollOffset 15
+	ZOffset -5
 
 	//Aim and Fire
 
@@ -226,9 +224,9 @@ Model Shot_Gun
 	Model 0 "Boot.md3"
 	Skin 0 "Boot.png"
 	Scale -1.0 1.0 1.0
-	Offset 5.0 0.0 0.0
+	Offset 0.0 0.0 0.0
 	NoInterpolation
-	ZOffset -20
+	ZOffset -5
 
 	FrameIndex	KIK1	A	0	5
 	FrameIndex	KIK1	B	0	6
@@ -277,8 +275,8 @@ Model Shot_Gun
 	Model 0 "fistclosed.md3"
 	Skin 0 "fist.png"
 	Scale -1.0 1.0 1.0
-	Offset 15.0 0.0 0.0
-	ZOffset -15
+	Offset 0.0 0.0 0.0
+	ZOffset -5
 
 	FrameIndex	FUCK	A	0	61
 	FrameIndex	FUCK	B	0	62
@@ -303,9 +301,9 @@ Model Shot_Gun2
 	Model 0 "Boot.md3"
 	Skin 0 "Boot.png"
 	Scale -1.0 1.0 1.0
-	Offset 5.0 0.0 0.0
+	Offset 0.0 0.0 0.0
 	NoInterpolation
-	ZOffset -20
+	ZOffset -5
 
 	FrameIndex	KIK1	A	0	5
 	FrameIndex	KIK1	B	0	6
@@ -354,8 +352,8 @@ Model Shot_Gun2
 	Model 0 "fistclosed.md3"
 	Skin 0 "fist.png"
 	Scale -1.0 1.0 1.0
-	Offset 15.0 0.0 0.0
-	ZOffset -15
+	Offset 0.0 0.0 0.0
+	ZOffset -5
 
 	FrameIndex	FUCK	A	0	61
 	FrameIndex	FUCK	B	0	62
