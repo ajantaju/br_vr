@@ -52,3 +52,5 @@ MEATGRINDER!: https://github.com/ajantaju/br_vr/releases/download/RC1/BR_VR_Meat
 Doom64 Retribution: https://github.com/ajantaju/br_vr/blob/master/D64Retribution.zip
 
 HacX 2.0 (+ Doom and Heretic) https://github.com/ajantaju/br_vr/blob/master/HacX.zip
+
+WolfenDOOM VR https://github.com/ajantaju/br_vr/raw/master/WolfenDOOM%203D%20VR%20Weapons.pk3 (To go with https://www.moddb.com/mods/wolfendoom/downloads/wolfendoom-enhanced(
