@@ -1,0 +1,340 @@
+Model BrutalPistol
+{
+	Path "Models/Weapons/Hud/BrutalPistol"
+	Model 0 "BrutalPistol.md3"
+	Skin 0 "BrutalPistol.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.0 -4.0 0.0
+	ZOffset -5
+	NoInterpolation
+
+	//Ready weapon
+
+	FrameIndex	PISS	A	0	0
+	FrameIndex	PISS	B	0	1
+
+	//Aim and Fire
+
+	FrameIndex	PIST	F	0	2
+	FrameIndex	PIST	A	0	3
+	FrameIndex	PIST	B	0	4
+	FrameIndex	PIST	C	0	5
+	FrameIndex	PIST	D	0	6
+	FrameIndex	PIST	E	0	7
+
+	//Reload
+
+	FrameIndex	PISR	A	0	8
+	FrameIndex	PISR	B	0	9
+	FrameIndex	PISR	C	0	10
+	FrameIndex	PISR	D	0	11
+	FrameIndex	PISR	E	0	12
+	FrameIndex	PISR	F	0	13
+	FrameIndex	PISR	G	0	14
+	FrameIndex	PISR	H	0	15
+	FrameIndex	PISR	I	0	16
+	FrameIndex	PISR	J	0	17
+	FrameIndex	PISR	K	0	18
+	FrameIndex	PISR	L	0	19
+	FrameIndex	PISR	M	0	20
+	FrameIndex	PISR	N	0	21
+	FrameIndex	PISR	O	0	22
+	FrameIndex	PISR	P	0	23
+	FrameIndex	PISR	Q	0	24
+	FrameIndex	PISR	R	0	25
+
+	//Sprint
+
+	FrameIndex	PISP	F	0	27
+
+	//Pistol Whip
+
+	FrameIndex	PISA	A	0	28
+	FrameIndex	PISA	B	0	29
+	FrameIndex	PISA	C	0	30
+	FrameIndex	PISA	D	0	31
+	FrameIndex	PISA	E	0	32
+	FrameIndex	PISA	F	0	33
+	FrameIndex	PISA	G	0	34
+	FrameIndex	PISA	H	0	35
+	FrameIndex	PISA	I	0	36
+	FrameIndex	PISA	J	0	37
+}
+
+//Dual Pistols
+
+Model DualPistols
+{
+	Path "Models/Weapons/Hud/BrutalPistol"
+	Model 0 "DualPistol.md3"
+	Skin 0 "BrutalPistol.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.0 -4.0 0.0
+	ZOffset -5
+	NoInterpolation
+
+	//Aim and Fire
+
+	FrameIndex	PI2G	A	0	4
+	FrameIndex	PI2F	A	0	5
+	FrameIndex	PI2F	B	0	6
+	FrameIndex	PI2F	C	0	7
+	FrameIndex	PI2F	D	0	8
+	FrameIndex	PI2F	E	0	9
+	FrameIndex	PI2F	F	0	10
+
+	//Reload Right
+
+	FrameIndex	PISR	A	0	12
+	FrameIndex	PISR	B	0	13
+	FrameIndex	PISR	C	0	14
+	FrameIndex	PISR	D	0	15
+	FrameIndex	PISR	E	0	16
+	FrameIndex	PISR	F	0	17
+	FrameIndex	PISR	G	0	18
+	FrameIndex	PISR	H	0	19
+	FrameIndex	PISR	I	0	20
+	FrameIndex	PISR	J	0	21
+	FrameIndex	PISR	K	0	22
+	FrameIndex	PISR	L	0	23
+	FrameIndex	PISR	M	0	24
+	FrameIndex	PISR	N	0	25
+	FrameIndex	PISR	O	0	26
+	FrameIndex	PISR	P	0	27
+	FrameIndex	PISR	Q	0	28
+	FrameIndex	PISR	R	0	29
+
+	//Reload Left
+
+	FrameIndex	PI2R	B	0	30
+	FrameIndex	PI2R	C	0	31
+	FrameIndex	PI2R	D	0	32
+	FrameIndex	PI2R	E	0	33
+	FrameIndex	PI2R	F	0	34
+	FrameIndex	PI2R	G	0	35
+	FrameIndex	PI2R	H	0	36
+	FrameIndex	PI2R	I	0	37
+	FrameIndex	PI2R	J	0	38
+	FrameIndex	PI2R	K	0	39
+	FrameIndex	PI2R	L	0	40
+	FrameIndex	PI2R	M	0	41
+	FrameIndex	PI2R	N	0	42
+	FrameIndex	PI2R	O	0	43
+	FrameIndex	PI2R	P	0	44
+	FrameIndex	PI2R	Q	0	45
+	FrameIndex	PI2R	R	0	46
+
+	//Sprint
+
+	FrameIndex	PI2P	A	0	3
+}
+
+Model BrutalPistol
+{
+	Path "Models/Weapons/Hud/Grenade"
+	Model 0 "nade.md3"
+	Skin 0 "nade.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.0 0.0 0.0
+	NoInterpolation
+	ZOffset -5
+
+	//Aim and Fire
+
+	FrameIndex	GRTH	A	0	3
+	FrameIndex	GRTH	B	0	4
+	FrameIndex	GRTH	C	0	5
+	FrameIndex	GRTH	D	0	6
+	FrameIndex	GRTH	E	0	7
+	FrameIndex	GRTH	F	0	8
+	FrameIndex	GRTH	G	0	9
+
+	FrameIndex	GRTH	H	0	10
+	FrameIndex	GRTH	I	0	11
+	FrameIndex	GRTH	J	0	12
+	FrameIndex	GRTH	K	0	13
+	FrameIndex	GRTH	L	0	14
+	FrameIndex	GRTH	M	0	15
+}
+
+Model DualPistols
+{
+	Path "Models/Weapons/Hud/Grenade"
+	Model 0 "nade.md3"
+	Skin 0 "nade.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.0 0.0 0.0
+	NoInterpolation
+	ZOffset -5
+
+	//Aim and Fire
+
+	FrameIndex	GRTH	A	0	3
+	FrameIndex	GRTH	B	0	4
+	FrameIndex	GRTH	C	0	5
+	FrameIndex	GRTH	D	0	6
+	FrameIndex	GRTH	E	0	7
+	FrameIndex	GRTH	F	0	8
+	FrameIndex	GRTH	G	0	9
+
+	FrameIndex	GRTH	H	0	10
+	FrameIndex	GRTH	I	0	11
+	FrameIndex	GRTH	J	0	12
+	FrameIndex	GRTH	K	0	13
+	FrameIndex	GRTH	L	0	14
+	FrameIndex	GRTH	M	0	15
+}
+
+Model BrutalPistol
+{
+	Path "Models/Weapons/Hud/Boot"
+	Model 0 "Boot.md3"
+	Skin 0 "Boot.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.0 0.0 0.0
+	NoInterpolation
+	ZOffset -5
+
+	FrameIndex	KIK1	A	0	5
+	FrameIndex	KIK1	B	0	6
+	FrameIndex	KIK1	C	0	7
+	FrameIndex	KIK1	D	0	8
+	FrameIndex	KIK1	E	0	9
+
+	FrameIndex	KIK2	A	0	10
+	FrameIndex	KIK2	B	0	11
+	FrameIndex	KIK2	C	0	12
+	FrameIndex	KIK2	D	0	13
+	FrameIndex	KIK2	E	0	14
+
+	FrameIndex	KICK	A	0	20
+	FrameIndex	KICK	B	0	21
+	FrameIndex	KICK	C	0	22
+	FrameIndex	KICK	D	0	23
+	FrameIndex	KICK	E	0	24
+	FrameIndex	KICK	F	0	25
+	FrameIndex	KICK	G	0	26
+	FrameIndex	KICK	H	0	27
+	FrameIndex	KICK	I	0	28
+	FrameIndex	KICK	J	0	29
+	FrameIndex	KICK	K	0	30
+	FrameIndex	KICK	L	0	31
+	FrameIndex	KICK	M	0	32
+	FrameIndex	KICK	N	0	33
+	FrameIndex	KICK	O	0	34
+	FrameIndex	KICK	P	0	35
+	FrameIndex	KICK	Q	0	36
+	FrameIndex	KICK	R	0	37
+	FrameIndex	KICK	S	0	38
+	FrameIndex	KICK	T	0	39
+	FrameIndex	KICK	U	0	40
+
+	FrameIndex	STOM	A	0	53
+	FrameIndex	STOM	B	0	54
+	FrameIndex	STOM	C	0	55
+	FrameIndex	STOM	D	0	56
+	FrameIndex	STOM	E	0	57
+}
+
+Model BrutalPistol
+{
+	Path "Models/Weapons/Hud/FIST"
+	Model 0 "fistclosed.md3"
+	Skin 0 "fist.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.0 0.0 0.0
+	ZOffset -5
+
+	FrameIndex	FUCK	A	0	61
+	FrameIndex	FUCK	B	0	62
+	FrameIndex	FUCK	C	0	63
+	FrameIndex	FUCK	D	0	64
+	FrameIndex	FUCK	E	0	64
+	FrameIndex	FUCK	F	0	66
+	FrameIndex	FUCK	G	0	67
+	FrameIndex	FUCK	H	0	68
+	FrameIndex	FUCK	I	0	69
+	FrameIndex	FUCK	J	0	69
+	FrameIndex	FUCK	K	0	71
+	FrameIndex	FUCK	L	0	72
+	FrameIndex	FUCK	M	0	73
+	FrameIndex	FUCK	N	0	74
+	FrameIndex	FUCK	O	0	74
+}
+
+Model DualPistols
+{
+	Path "Models/Weapons/Hud/Boot"
+	Model 0 "Boot.md3"
+	Skin 0 "Boot.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.0 0.0 0.0
+	NoInterpolation
+	ZOffset -5
+
+	FrameIndex	KIK1	A	0	5
+	FrameIndex	KIK1	B	0	6
+	FrameIndex	KIK1	C	0	7
+	FrameIndex	KIK1	D	0	8
+	FrameIndex	KIK1	E	0	9
+
+	FrameIndex	KIK2	A	0	10
+	FrameIndex	KIK2	B	0	11
+	FrameIndex	KIK2	C	0	12
+	FrameIndex	KIK2	D	0	13
+	FrameIndex	KIK2	E	0	14
+
+	FrameIndex	KICK	A	0	20
+	FrameIndex	KICK	B	0	21
+	FrameIndex	KICK	C	0	22
+	FrameIndex	KICK	D	0	23
+	FrameIndex	KICK	E	0	24
+	FrameIndex	KICK	F	0	25
+	FrameIndex	KICK	G	0	26
+	FrameIndex	KICK	H	0	27
+	FrameIndex	KICK	I	0	28
+	FrameIndex	KICK	J	0	29
+	FrameIndex	KICK	K	0	30
+	FrameIndex	KICK	L	0	31
+	FrameIndex	KICK	M	0	32
+	FrameIndex	KICK	N	0	33
+	FrameIndex	KICK	O	0	34
+	FrameIndex	KICK	P	0	35
+	FrameIndex	KICK	Q	0	36
+	FrameIndex	KICK	R	0	37
+	FrameIndex	KICK	S	0	38
+	FrameIndex	KICK	T	0	39
+	FrameIndex	KICK	U	0	40
+
+	FrameIndex	STOM	A	0	53
+	FrameIndex	STOM	B	0	54
+	FrameIndex	STOM	C	0	55
+	FrameIndex	STOM	D	0	56
+	FrameIndex	STOM	E	0	57
+}
+
+Model DualPistols
+{
+	Path "Models/Weapons/Hud/FIST"
+	Model 0 "fistclosed.md3"
+	Skin 0 "fist.png"
+	Scale -1.0 1.0 1.0
+	Offset 0.0 0.0 0.0
+	ZOffset -5
+
+	FrameIndex	FUCK	A	0	61
+	FrameIndex	FUCK	B	0	62
+	FrameIndex	FUCK	C	0	63
+	FrameIndex	FUCK	D	0	64
+	FrameIndex	FUCK	E	0	64
+	FrameIndex	FUCK	F	0	66
+	FrameIndex	FUCK	G	0	67
+	FrameIndex	FUCK	H	0	68
+	FrameIndex	FUCK	I	0	69
+	FrameIndex	FUCK	J	0	69
+	FrameIndex	FUCK	K	0	71
+	FrameIndex	FUCK	L	0	72
+	FrameIndex	FUCK	M	0	73
+	FrameIndex	FUCK	N	0	74
+	FrameIndex	FUCK	O	0	74
+}
